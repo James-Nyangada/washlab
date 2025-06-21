@@ -55,7 +55,7 @@ export default function Footer4() {
                           <Image
                             className="text-primary"
                             alt="washlabs"
-                            src="/assets/images/common/logo-dark.svg"
+                            src="/assets/images/common/logo-light.png"
                             width="117"
                             height="40"
                           />

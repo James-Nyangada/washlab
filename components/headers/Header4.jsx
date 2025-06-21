@@ -41,7 +41,7 @@ export default function Header4() {
       >
         <div
           style={{ "--uc-nav-height": "32px" }}
-          className="uc-navbar-top bg-primary-700 text-white uc-dark d-none lg:d-block"
+          className="uc-navbar-top bg-primary-700 text-black uc-dark d-none lg:d-block"
         >
           <div className="hide-on-sticky">
             <div className="container container-expand max-w-1440px">
@@ -69,7 +69,7 @@ export default function Header4() {
                       href="tel:01032701349"
                     >
                       <i className="icon-narrow unicon-phone" />
-                      <span>Tel: +1 327 1349</span>
+                      <span className="text-black">Tel: +1 327 1349</span>
                     </a>
                   </div>
                   
@@ -94,14 +94,14 @@ export default function Header4() {
                     <Image
                       className="dark:d-none"
                       alt="washlabs"
-                      src="/assets/images/common/logo-light.svg"
+                      src="/assets/images/common/logo-light.png"
                       width="117"
                       height="40"
                     />
                     <Image
                       className="d-none dark:d-block"
                       alt="washlabs"
-                      src="/assets/images/common/logo-dark.svg"
+                      src="/assets/images/common/logo-dark.png"
                       width="117"
                       height="40"
                     />
@@ -112,16 +112,14 @@ export default function Header4() {
                 </ul>
               </div>
               <div className="uc-navbar-right">
-                <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ltr:ms-2 ltr:xl:ms-4 rtl:me-2 rtl:xl:me-4">
-                  <LanguageSelect2 />
-                </ul>
+                
                 <Link
                   className="btn btn-md btn-primary rounded-default lg:px-3 text-none shadow-xs d-none lg:d-inline-flex"
                   href={`/`}
                 >
                   Partner with Us
                 </Link>
-                
+
                 <a
                   className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"
                   onClick={openMobileMenu}

@@ -19,7 +19,7 @@ export default function Footer2() {
                         <img
                           className=" text-primary"
                           alt="washlabs"
-                          src="/assets/images/common/logo-dark.svg"
+                          src="/assets/images/common/logo-dark.png"
                         />
                       </Link>
                       <p>

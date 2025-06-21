@@ -1,13 +1,22 @@
 import { features3 } from "@/data/features";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Features() {
   return (
     <div id="main_features" className="main-features section panel">
+    <div className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-6 lg:mb-8 sm:max-w-600px lg:max-w-700px xl:max-w-800px mx-auto text-center"
+              data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+        <span className="fw-bold items-center py-narrow px-2 border rounded-pill text-primary dark:text-secondary">
+                Project Spotlight
+              </span>
+    </div>
+    
       <div className="section-outer panel py-6 xl:py-9">
         <div className="container sm:max-w-md lg:max-w-lg xl:max-w-xl">
           <div className="section-inner panel">
+              
             <div className="panel vstack gap-4 sm:gap-6 lg:gap-8">
               {features3.map((feature, i) => (
                 <React.Fragment key={i}>
@@ -50,31 +59,12 @@ export default function Features() {
                                 </a>
                               )}
                             </div>
+                            <Link href={"/"} className="btn btn-md btn-primary rounded-default text-white mt-3">
+                            View Project
+                          </Link>
                           </div>
-                          <div>
-                            <div className="p-3 panel vstack gap-3 rounded border">
-                              <p className="fs-6 dark:text-white">
-                                {feature.testimonial.quote}
-                              </p>
-                              <div className="panel hstack gap-1">
-                                <Image
-                                  className="w-40px rounded-circle"
-                                  src={feature.testimonial.imgSrc}
-                                  width={150}
-                                  height={150}
-                                  alt={feature.testimonial.name}
-                                />
-                                <div className="panel vstack items-start gap-0">
-                                  <h6 className="h6 m-0">
-                                    {feature.testimonial.name}
-                                  </h6>
-                                  <span className="fs-7 opacity-70">
-                                    {feature.testimonial.role}
-                                  </span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                          
+                          
                         </div>
                       </div>
                     </div>

@@ -47,12 +47,12 @@ export default function Hero() {
                     <Image
                       className="media-cover image"
                       alt="image"
-                      src="/assets/images/template/hero-05.jpg"
+                      src="/assets/images/template/hero-05.jpeg"
                       width="1184"
                       height="1280"
                     />
                   </figure>
-                  <div
+                  {/* <div
                     className="hero-five-contries position-absolute sm:w-300px lg:w-250px xl:w-350px d-none sm:d-block"
                     data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 750;"
                     style={{ top: "20%" }}
@@ -64,8 +64,8 @@ export default function Hero() {
                       width="710"
                       height="854"
                     />
-                  </div>
-                  <div
+                  </div> */}
+                  {/* <div
                     className="hero-five-account position-absolute sm:w-250px lg:w-200px xl:w-300px d-none sm:d-block"
                     data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 750;"
                     style={{ bottom: "20%" }}
@@ -77,7 +77,7 @@ export default function Hero() {
                       width="605"
                       height="274"
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

@@ -91,11 +91,11 @@ export const features2 = [
 export const features3 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.svg",
-    altText: "Share tools quickly and confidently in minutes",
+    imgSrc: "/assets/images/template/feature-01.jpeg",
+    altText: "Samburu Project",
     step: "01.",
-    title: "Share tools quickly and confidently in minutes",
-    description: `This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.`,
+    title: "Samburu Project",
+    description: `Working with local leaders in Samburu, Kenya, WASHLAB implemented a solar-powered water supply with remote IoT monitoring. This climate-smart system now provides a continuous flow of safe water... we trained community members to operate and maintain the network, ensuring local ownership and long-term sustainability.`,
     testimonial: {
       quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on building out programs to help our employees.”`,
       imgSrc: "/assets/images/avatars/01.png",
@@ -103,52 +103,7 @@ export const features3 = [
       role: "Director of Human Resources.",
     },
   },
-  {
-    id: 2,
-    imgSrc: "/assets/images/template/feature-02.svg",
-    altText: "Connect every part of your entire business",
-    step: "02.",
-    title: "Connect every part of your entire business",
-    description: `Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.`,
-    link: {
-      href: "#",
-      text: "See all integrations",
-    },
-    testimonial: {
-      quote: `“I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”`,
-      imgSrc: "/assets/images/avatars/02.png",
-      name: "Matt Henderson",
-      role: "Client Success Manager",
-    },
-  },
-  {
-    id: 3,
-    imgSrc: "/assets/images/template/feature-03.svg",
-    altText: "Maintain compliance and control your apps",
-    step: "03.",
-    title: "Maintain compliance and control your apps",
-    description: `Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks and lock all legal information to prevent costly mistakes.`,
-    testimonial: {
-      quote: `“This powerful tool eliminates the need to leave Salesforce to get things done.”`,
-      imgSrc: "/assets/images/avatars/04.png",
-      name: "Natalia Larsson",
-      role: "Director of Sales Operations",
-    },
-  },
-  {
-    id: 4,
-    imgSrc: "/assets/images/template/feature-04.svg",
-    altText: "Review quickly and confidently",
-    step: "04.",
-    title: "Review quickly and confidently",
-    description: `Get real-time access to approvals, comments and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.`,
-    testimonial: {
-      quote: `“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation.”`,
-      imgSrc: "/assets/images/avatars/03.png",
-      name: "Sarah Edrissi",
-      role: "Lead Marketing",
-    },
-  },
+  
 ];
 
 export const features4 = [

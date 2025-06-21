@@ -16,57 +16,18 @@ export default function Features() {
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <span className="fw-bold py-narrow px-2 border rounded-pill text-primary dark:text-secondary">
-                Features
+                About us
               </span>
               <h2 className="h3 sm:h2 lg:h1 xl:display-6 m-0">
-                Recognized by the experts
+                Who we are
               </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70">
-                Offers a unified platform that fosters innovation while
-                providing end-to-end data management. See how we help your team
-                solve today’s biggest challenges.
+                WASHLAB Consult is an African-born consultancy transforming water and sanitation services through innovation and community partnership. We deliver climate-resilient WASH solutions to underserved communities by blending expert insight, advanced technology, and on-the-ground engagement. Our approach is innovative, impactful, and community-focused, ensuring sustainable outcomes in every project
               </p>
+
+              <Link href={"/"} className="btn btn-md btn-primary rounded-default text-white">Learn More</Link>
             </div>
-            <div
-              className="features-items row child-cols-12 sm:child-cols-6 lg:child-cols-4 g-0 col-match"
-              data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
-            >
-              {featureItems2.map((item, index) => (
-                <div key={index} className={item.order}>
-                  <div
-                    className={`features-item vstack justify-between gap-6 xl:gap-8 p-4 xl:p-6 rounded-1-5 ${
-                      item.bgClass || ""
-                    }`}
-                  >
-                    <div className="icon-box w-48px h-48px rounded-1-5 cstack bg-primary">
-                      <Image
-                        className="w-20px xl:w-24px text-white image-filter-white"
-                        src={item.iconSrc}
-                        width={24}
-                        height={24}
-                        alt={item.alt}
-                        data-uc-svg=""
-                      />
-                    </div>
-                    <div className="panel">
-                      <div className="vstack gap-1">
-                        <h3 className="title h5 xl:h4 m-0">{item.title}</h3>
-                        <p className="desc fs-7 xl:fs-6 text-opacity-70">
-                          {item.description}
-                        </p>
-                        <Link
-                          className="uc-link dark:text-secondary fs-7 xl:fs-6 fw-bold hstack gap-1 sm:mt-1"
-                          href={`/page-features`}
-                        >
-                          <span>Learn more</span>
-                          <i className="position-relative icon unicon-arrow-right fw-bold rtl:rotate-180 translate-y-px" />
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+            
           </div>
         </div>
       </div>
