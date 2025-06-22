@@ -9,9 +9,11 @@ import Feedback from "@/components/homes/home-2/Feedback";
 import Timeline from "@/components/homes/home-1/Timeline";
 import Team from "@/components/homes/home-1/Team";
 import Cta from "@/components/innerpages/Cta";
+import Header4 from "@/components/headers/Header4";
+import Footer4 from "@/components/footers/Footer4";
 export const metadata = {
   title:
-    "About || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "About Us || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
@@ -19,36 +21,17 @@ export default function AboutPage() {
   return (
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header2 />
+        <Header4 />
         <div id="wrapper" className="wrap">
           <About />
-          <div
-            id="clients_brands"
-            className="clients-brands section panel overflow-hidden"
-          >
-            <div className="section-outer panel pb-6 xl:pb-9">
-              <div className="container max-w-xl">
-                <div className="section-inner panel">
-                  <div
-                    className="block-panel panel"
-                    data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
-                  >
-                    <div className="element-brands max-w-950px m-auto text-gray-900 dark:text-white">
-                      <Brands />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <About2 />
           <AboutValues />
+          <About2/>
           <Feedback />
           <Timeline />
           <Team />
           <Cta />
         </div>
-        <Footer2 />
+        <Footer4 />
       </div>
     </>
   );

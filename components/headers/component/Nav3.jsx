@@ -8,7 +8,7 @@ export default function Nav3() {
   return (
     <>
       <li>
-        <Link href={`/`}>About us</Link>
+        <Link href={`/about-us`}>About us</Link>
       </li>
 
       <li className="has-dd-menu" style={{ position: "relative" }}>

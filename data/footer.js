@@ -1,7 +1,7 @@
 export const footerLinks = [
   {
     links: [
-      { href: "/", label: "About" },
+      { href: "/about-us", label: "About" },
       { href: "/", label: "Services" },
       { href: "/", label: "Projects" },
       { href: "/", label: "Insights" },
@@ -80,7 +80,7 @@ export const footerLinks3 = [
     title: "Quick Links",
     links: [
       { href: "/", label: "Quick Links" },
-      { href: "/", label: "About" },
+      { href: "/about-us", label: "About" },
       { href: "/", label: "Services" },
       { href: "/", label: "Projects" },
       { href: "/", label: "Insights" },
@@ -145,10 +145,7 @@ export const footerLinks4 = [
 
 export const socialLinks = [
   { href: "#", iconClass: "unicon-logo-linkedin" },
-  { href: "#", iconClass: "unicon-logo-facebook" },
   { href: "#", iconClass: "unicon-logo-x-filled" },
-  { href: "#", iconClass: "unicon-logo-instagram" },
-  { href: "#", iconClass: "unicon-logo-youtube" },
 ];
 
 export const footerLinks5 = [

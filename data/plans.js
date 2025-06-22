@@ -4,25 +4,25 @@ export const panelsData = [
     lightImgSrc: "/assets/images/template/icon-diamond.svg",
     darkImgSrc: "/assets/images/template/icon-diamond-dark.svg",
     altText: "impact-icon",
-    title: "Make an impact",
+    title: "Sustainability",
     description:
-      "We’re building something big. Something that has the power to change the trajectory of any sized business for the better.",
+      "We champion environmentally, financially, and socially sustainable solutions",
   },
   {
     id: 2,
     lightImgSrc: "/assets/images/template/icon-trophy.svg",
     darkImgSrc: "/assets/images/template/icon-trophy-dark.svg",
     altText: "crown-icon",
-    title: "Learn",
+    title: "Innovation",
     description:
-      "washlabs team are masters of their craft. Even though we’re all experts in our respective fields, we always make time to expand our minds.",
+      "Cutting-edge technology to create future-ready systems",
   },
   {
     id: 3,
     lightImgSrc: "/assets/images/template/icon-globe.svg",
     darkImgSrc: "/assets/images/template/icon-globe-dark.svg",
     altText: "fun-icon",
-    title: "Have fun",
+    title: "Integrity",
     description:
       "We work hard and play harder. We believe in the importance of celebrating wins big or small, for the business or individuals.",
   },
@@ -31,8 +31,26 @@ export const panelsData = [
     lightImgSrc: "/assets/images/template/icon-crown.svg",
     darkImgSrc: "/assets/images/template/icon-crown-dark.svg",
     altText: "empathy-icon",
-    title: "Empathy",
+    title: "Collaboration",
     description:
-      "We strive to be empathetic to every customer and colleague and by doing so we can provide a better experience for all.",
+      "Work hand-in-hand with communities, governments, and partners",
+  },
+  {
+    id: 5,
+    lightImgSrc: "/assets/images/template/icon-crown.svg",
+    darkImgSrc: "/assets/images/template/icon-crown-dark.svg",
+    altText: "empathy-icon",
+    title: "Impact",
+    description:
+      "Real-world, quantifiable improvements in water and sanitation access.",
+  },
+  {
+    id: 6,
+    lightImgSrc: "/assets/images/template/icon-crown.svg",
+    darkImgSrc: "/assets/images/template/icon-crown-dark.svg",
+    altText: "empathy-icon",
+    title: "Excellence",
+    description:
+      "Highest standards of quality and delivery.",
   },
 ];

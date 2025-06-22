@@ -36,6 +36,7 @@ export default function Team() {
                         <span className="fs-7 opacity-70">
                           {member.position}
                         </span>
+
                       </div>
                     </div>
                   </div>

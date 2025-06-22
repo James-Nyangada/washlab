@@ -46,12 +46,13 @@ export default function About() {
                 About washlabs.
               </h1>
               <p className="fs-6 md:fs-5 text-dark dark:text-white text-opacity-70">
-                In 2014, Steven Smith have gotten so much of our time back that
-                we're now able to put towards things that are actually helping
-                our company as opposed to just throwing content out there. and
-                the idea of washlabs was born. Today, washlabs empowers teams to
-                easily communicate with customers through personalized documents
-                that can be created in minutes, build meaningful relationships.
+                WASHLAB Consult is an African-born consultancy transforming
+                water and sanitation services through innovation and community
+                partnership. We deliver climate-resilient WASH solutions to
+                underserved communities by blending expert insight, advanced
+                technology, and on-the-ground engagement. Our approach is
+                innovative, impactful, and community-focused, ensuring sustainable
+                outcomes in every project.
               </p>
             </div>
             <div className="panel row child-cols-12 col-match g-1 sm:g-2">
@@ -60,27 +61,12 @@ export default function About() {
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="About image"
-                    src="/assets/images/template/hero-about-01.jpg"
+                    src="/assets/images/template/hero-about-01.jpeg"
                     width="1000"
                     height="1500"
                   />
                 </figure>
-                <div className="position-absolute top-0 start-0 z-1 ms-n8 mt-n8 d-none lg:d-block">
-                  <Image
-                    className="w-200px xl:w-250px d-block dark:d-none"
-                    alt="hand-pencil"
-                    src="/assets/images/template/hand-pencil.svg"
-                    width="154"
-                    height="309"
-                  />
-                  <Image
-                    className="w-200px xl:w-250px d-none dark:d-block"
-                    alt="hand-pencil-dark"
-                    src="/assets/images/template/hand-pencil-dark.svg"
-                    width="154"
-                    height="309"
-                  />
-                </div>
+                
               </div>
               <div className="col-8">
                 <div className="h-100">
@@ -89,28 +75,13 @@ export default function About() {
                     <Image
                       className="media-cover image"
                       alt="About image"
-                      src="/assets/images/template/hero-about-02.jpg"
+                      src="/assets/images/template/hero-about-02.jpeg"
                       width="1000"
                       height="667"
                     />
                   </figure>
                 </div>
-                <div className="position-absolute bottom-0 end-0 z-1 me-n8 mb-n8 d-none lg:d-block">
-                  <Image
-                    className="w-200px xl:w-250px d-block dark:d-none"
-                    alt="empathing"
-                    src="/assets/images/template/empathing.svg"
-                    width="278"
-                    height="229"
-                  />
-                  <Image
-                    className="w-200px xl:w-250px d-none dark:d-block"
-                    alt="empathing-dark"
-                    src="/assets/images/template/empathing-dark.svg"
-                    width="278"
-                    height="229"
-                  />
-                </div>
+                
               </div>
             </div>
           </div>
