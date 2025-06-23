@@ -10,9 +10,9 @@ import PricingCompare from "@/components/innerpages/PricingCompare";
 import React from "react";
 export const metadata = {
   title:
-    "Pricing 02 || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Pricing 02 || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function page() {
   return (

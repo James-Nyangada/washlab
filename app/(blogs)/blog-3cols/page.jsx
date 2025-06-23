@@ -6,9 +6,9 @@ import BreadCumb from "@/components/blog/BreadCumb";
 import Blogs6 from "@/components/blog/Blogs6";
 export const metadata = {
   title:
-    "Blog 3 Cols || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog 3 Cols || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function Blog3ColsPage() {
   return (

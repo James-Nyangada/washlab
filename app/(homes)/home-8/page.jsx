@@ -13,9 +13,9 @@ import Tools from "@/components/homes/home-8/Tools";
 import React from "react";
 export const metadata = {
   title:
-    "Home 8 || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 8 || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function page() {
   return (

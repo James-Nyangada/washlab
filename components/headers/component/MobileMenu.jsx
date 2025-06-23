@@ -89,7 +89,7 @@ export default function MobileMenu() {
             >
               <Image
                 className="w-32px"
-                alt="washlabs"
+                alt="washlab"
                 src="/assets/images/common/logo-mark.svg"
                 width="34"
                 height="34"
@@ -105,21 +105,6 @@ export default function MobileMenu() {
           </button>
         </header>
         <div className="panel">
-          <form
-            onSubmit={(e) => e.preventDefault()}
-            id="search-panel"
-            className="form-icon-group vstack gap-1 mb-2 uc-sticky"
-            data-uc-sticky=""
-          >
-            <input
-              type="email"
-              className="form-control form-control-sm fs-7 rounded-default"
-              placeholder="Search.."
-            />
-            <span className="form-icon text-gray">
-              <i className="unicon-search icon-1" />
-            </span>
-          </form>
           <div
             className="uc-sticky-placeholder"
             style={{ height: 40, width: 290, margin: "0px 0px 16px" }}
@@ -229,18 +214,7 @@ export default function MobileMenu() {
                 )}
               </li>
             ))}
-            <li className="hr opacity-10 my-1" />
-            <li>
-              <Link href={`/sign-up`}>Create an account</Link>
-            </li>
-            <li>
-              <Link href={`/sign-in`}>Log in</Link>
-            </li>
-            <li>
-              <a href="https://themeforest.net/user/ib-themes/portfolio">
-                Buy Template
-              </a>
-            </li>
+            
           </ul>
           <ul className="social-icons nav-x mt-4">
             <li>
@@ -251,24 +225,8 @@ export default function MobileMenu() {
               ))}
             </li>
           </ul>
-          <div
-            className="py-2 hstack gap-2 mt-4 bg-white dark:bg-gray-900 uc-sticky uc-active uc-sticky-fixed"
-            data-uc-sticky="position: bottom"
-          >
-            <div className="vstack gap-1">
-              <span className="fs-7 opacity-60">Select theme:</span>
-              <div className="darkmode-trigger" data-darkmode-switch="">
-                <label className="switch">
-                  <input
-                    checked={!isDark}
-                    onChange={handleToggle}
-                    type="checkbox"
-                  />
-                  <span className="slider fs-5" />
-                </label>
-              </div>
-            </div>
-          </div>
+          
+          
           <div
             className="uc-sticky-placeholder"
             style={{ height: 83, width: 290, margin: "32px 0px 0px" }}

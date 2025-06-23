@@ -5,9 +5,9 @@ import Header1 from "@/components/headers/Header1";
 import { allBlogs } from "@/data/blogs";
 export const metadata = {
   title:
-    "Blog Details 3 || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog Details 3 || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default async function BlogDetailsPage3(props) {
   const params = await props.params;

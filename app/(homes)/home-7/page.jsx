@@ -13,9 +13,9 @@ import Testimonials from "@/components/homes/home-7/Testimonials";
 import React from "react";
 export const metadata = {
   title:
-    "Home 7 || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 7 || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function page() {
   return (

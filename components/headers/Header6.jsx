@@ -80,14 +80,14 @@ export default function Header6({ staticPosition = false }) {
                     >
                       <Image
                         className="dark:d-none"
-                        alt="washlabs"
+                        alt="washlab"
                         width="128"
                         height="34"
                         src="/assets/images/common/logo-new-light.svg"
                       />
                       <Image
                         className="d-none dark:d-block"
-                        alt="washlabs"
+                        alt="washlab"
                         width="128"
                         height="34"
                         src="/assets/images/common/logo-new-dark.svg"
@@ -131,7 +131,7 @@ export default function Header6({ staticPosition = false }) {
                                     <div className="panel vstack gap-4">
                                       <div className="vstack gap-narrow">
                                         <h5 className="h5 xl:h4 fw-medium m-0">
-                                          washlabs's AI Automation Platform
+                                          washlab's AI Automation Platform
                                         </h5>
                                         <p className="fs-7 text-gray-300">
                                           AI-Powered Automation across 500+ apps
@@ -244,7 +244,7 @@ export default function Header6({ staticPosition = false }) {
                                 <a href="#">
                                   <i className="fs-8 unicon-cloud-lightning fw-bold"></i>
                                   <span className="border-bottom hover:border-primary duration-150">
-                                    Join washlabs Early Access
+                                    Join washlab Early Access
                                   </span>
                                 </a>
                               </li>
@@ -292,7 +292,7 @@ export default function Header6({ staticPosition = false }) {
                                         Workflow quick-start automation guide
                                       </h5>
                                       <p className="fs-7 text-gray-300">
-                                        How washlabs can help you automate your
+                                        How washlab can help you automate your
                                         work
                                       </p>
                                     </div>
@@ -436,7 +436,7 @@ export default function Header6({ staticPosition = false }) {
                                 <a href="#">
                                   <i className="fs-8 unicon-cloud-lightning fw-bold"></i>
                                   <span className="border-bottom hover:border-primary duration-150">
-                                    Join washlabs Early Access
+                                    Join washlab Early Access
                                   </span>
                                 </a>
                               </li>

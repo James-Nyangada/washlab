@@ -1,9 +1,9 @@
 import Resetpass1 from "@/components/otherPages/Resetpass1";
 export const metadata = {
   title:
-    "Reset Password || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Reset Password || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function ResetPasswordPage() {
   return (

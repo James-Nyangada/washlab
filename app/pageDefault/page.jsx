@@ -3,9 +3,9 @@ import Header2 from "@/components/headers/Header2";
 import Footer2 from "@/components/footers/Footer2";
 export const metadata = {
   title:
-    "Home || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function page() {
   return (

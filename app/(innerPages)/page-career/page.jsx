@@ -9,9 +9,9 @@ import Brands from "@/components/innerpages/Brands";
 import Blogs from "@/components/homes/home-2/Blogs";
 export const metadata = {
   title:
-    "Career || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Career || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function CareerPage() {
   return (

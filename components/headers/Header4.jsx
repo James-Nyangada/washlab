@@ -93,14 +93,14 @@ export default function Header4() {
                   >
                     <Image
                       className="dark:d-none"
-                      alt="washlabs"
+                      alt="washlab"
                       src="/assets/images/common/logo-light.png"
                       width="117"
                       height="40"
                     />
                     <Image
                       className="d-none dark:d-block"
-                      alt="washlabs"
+                      alt="washlab"
                       src="/assets/images/common/logo-dark.png"
                       width="117"
                       height="40"

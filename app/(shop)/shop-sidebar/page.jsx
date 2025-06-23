@@ -5,9 +5,9 @@ import Breadcumb from "@/components/shop/Breadcumb";
 import Shop4 from "@/components/shop/Shop4";
 export const metadata = {
   title:
-    "Shop 3 || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Shop 3 || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function ShopPage3() {
   return (

@@ -1,5 +1,5 @@
 {
-  "name": "washlabs-next",
+  "name": "washlab-next",
   "version": "2.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "animejs": "^3.2.2",
+    "emailjs-com": "^3.2.0",
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
     "next": "15.1.7",

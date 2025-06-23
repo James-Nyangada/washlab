@@ -12,9 +12,9 @@ import Facts from "@/components/homes/home-4/Facts";
 import AboutValues from "@/components/innerpages/AboutValues";
 export const metadata = {
   title:
-    "Blog Details || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog Details || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default async function BlogDetailsPage1(props) {
   const params = await props.params;

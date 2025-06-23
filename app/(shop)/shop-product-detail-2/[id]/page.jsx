@@ -6,9 +6,9 @@ import ShopDetails2 from "@/components/shop/ShopDetails2";
 import { products } from "@/data/products";
 export const metadata = {
   title:
-    "Shop Details 2 || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Shop Details 2 || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default async function ShopDetailsPage2(props) {
   const params = await props.params;

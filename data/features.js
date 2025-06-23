@@ -193,8 +193,8 @@ export const featureItems = [
   },
   {
     imageSrc: "/assets/images/template/home-four-feature-04.png",
-    altText: "Collaboration is made seamless with washlabs",
-    title: "Collaboration is made seamless with washlabs",
+    altText: "Collaboration is made seamless with washlab",
+    title: "Collaboration is made seamless with washlab",
     description:
       "Get real-time access to approvals, comments and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.",
     linkText: "Let's find out",

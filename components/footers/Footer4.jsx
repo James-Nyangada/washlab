@@ -54,7 +54,7 @@ export default function Footer4() {
                         <Link href={`/`} style={{ width: 140 }}>
                           <Image
                             className="text-primary"
-                            alt="washlabs"
+                            alt="washlab"
                             src="/assets/images/common/logo-light.png"
                             width="117"
                             height="40"

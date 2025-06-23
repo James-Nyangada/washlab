@@ -1,7 +1,35 @@
 "use client";
 import Image from "next/image";
+import { useRef } from 'react'
+import emailjs from "@emailjs/browser";
+
+
 
 export default function Contact1() {
+  const form = useRef(null);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_uk9zttx', // Replace with your actual service ID
+        'template_6nfr0we', // Replace with your template ID
+        form.current,
+        "LKYT2ZF4AGUC6nwTf" // Replace with your public key
+      )
+      .then(
+        (result) => {
+          console.log("SUCCESS!", result.text);
+          alert("Message sent successfully!");
+          form.current.reset();
+        },
+        (error) => {
+          console.error("FAILED...", error.text);
+          alert("Failed to send message. Please try again.");
+        }
+      );
+  };
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
       <div
@@ -86,7 +114,7 @@ export default function Contact1() {
                 </div>
                 <div className="order-0 lg:order-1">
                   <form
-                    onSubmit={(e) => e.preventDefault()}
+                    ref={form} onSubmit={sendEmail}
                     className="vstack gap-2 p-3 sm:p-6 xl:p-8"
                   >
                     <p className="fs-6 text-dark dark:text-white text-opacity-70 mb-2">
@@ -96,6 +124,7 @@ export default function Contact1() {
                     <div className="row child-cols-12 sm:child-cols-6 g-2">
                       <div>
                         <input
+                          name="name"
                           className="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
                           type="text"
                           placeholder="Full name"
@@ -104,6 +133,7 @@ export default function Contact1() {
                       </div>
                       <div>
                         <input
+                          name="email"
                           className="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
                           type="email"
                           placeholder="Your email"
@@ -111,26 +141,27 @@ export default function Contact1() {
                         />
                       </div>
                     </div>
-                    <select className="form-control h-50px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white">
-                      <option value="" disabled selected>
-                        Select a topic
-                      </option>
+                    <select name="topic" defaultValue="" className="form-control h-50px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white">
+                       <option value="" disabled>Select a topic</option>
                       <option value="general">General Inquiry</option>
                       <option value="partnership">Partnership</option>
                       <option value="support">Partnership</option>
                       <option value="feedback">Media</option>
                     </select>
                     <input
+                      name="organization"
                       className="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
                       type="text"
                       placeholder="Organization"
                     />
                     <input
+                      name="subject"
                       className="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
                       type="text"
                       placeholder="Subject"
                     />
                     <textarea
+                      name="message"
                       className="form-control min-h-150px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
                       placeholder="Your message.."
                       required

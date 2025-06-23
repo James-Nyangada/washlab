@@ -14,7 +14,7 @@ export default function Topbar() {
         data-uc-close=""
       />
       <p>
-        The washlabs AI automation guide is here.{" "}
+        The washlab AI automation guide is here.{" "}
         <br className="d-block lg:d-none" />
         <a
           href="https://themeforest.net/item/lexend-software-saas-startup-nextjs-template/54003483/"

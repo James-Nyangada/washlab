@@ -114,7 +114,7 @@ export default function Hero() {
                     data-anime="translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 950;"
                   >
                     <Image
-                      alt="Dashboard washlabs"
+                      alt="Dashboard washlab"
                       src="/assets/images/template/dashboard-8-home.png"
                       width={1353}
                       height={978}

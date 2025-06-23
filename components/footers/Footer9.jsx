@@ -54,7 +54,7 @@ export default function Footer9() {
                         >
                           <Image
                             className="text-primary dark:text-tertiary"
-                            alt="washlabs"
+                            alt="washlab"
                             data-uc-svg=""
                             src="/assets/images/common/logo-8-light.svg"
                             width={148}
@@ -85,7 +85,7 @@ export default function Footer9() {
               </div>
               <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between text-center pt-4 lg:pt-6 border-top dark:text-white">
                 <p className="opacity-60">
-                  washlabs © {new Date().getFullYear()}, All rights reserved.
+                  washlab © {new Date().getFullYear()}, All rights reserved.
                 </p>
                 <ul className="nav-x justify-center gap-2">
                   <li>

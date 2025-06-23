@@ -7,9 +7,9 @@ import Topbar from "@/components/headers/Topbar";
 import React from "react";
 export const metadata = {
   title:
-    "Blog Sidebar || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog Sidebar || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function page() {
   return (

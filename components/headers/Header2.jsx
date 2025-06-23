@@ -59,14 +59,14 @@ export default function Header2() {
                   >
                     <Image
                       className="dark:d-none"
-                      alt="washlabs"
+                      alt="washlab"
                       src="/assets/images/common/logo-light.svg"
                       width="117"
                       height="40"
                     />
                     <Image
                       className="d-none dark:d-block"
-                      alt="washlabs"
+                      alt="washlab"
                       src="/assets/images/common/logo-dark.svg"
                       width="117"
                       height="40"

@@ -17,7 +17,7 @@ export default function Cta() {
                   href={`/contact`}
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
-                  Try washlabs today
+                  Try washlab today
                 </Link>
               </div>
               <p className="fs-7 text-dark dark:text-white text-opacity-70">

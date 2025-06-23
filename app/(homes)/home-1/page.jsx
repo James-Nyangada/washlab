@@ -11,9 +11,9 @@ import Cta from "@/components/homes/home-1/Cta";
 import Footer1 from "@/components/footers/Footer1";
 export const metadata = {
   title:
-    "Home 1 || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 1 || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function HomePage1() {
   return (

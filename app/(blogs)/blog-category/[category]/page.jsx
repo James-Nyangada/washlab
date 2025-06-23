@@ -6,9 +6,9 @@ import BreadCumb from "@/components/blog/BreadCumb";
 import Blogs3 from "@/components/blog/Blogs3";
 export const metadata = {
   title:
-    "Blog Category || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog Category || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default async function BlogCategoryPage(props) {
   const params = await props.params;

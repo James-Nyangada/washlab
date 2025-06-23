@@ -8,9 +8,9 @@ import Contact2 from "@/components/innerpages/Contact2";
 import ContactLinks2 from "@/components/innerpages/ContactLinks2";
 export const metadata = {
   title:
-    "Contact 2 || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Contact 2 || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function ContactPage2() {
   return (

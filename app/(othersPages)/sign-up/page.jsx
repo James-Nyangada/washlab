@@ -1,9 +1,9 @@
 import Signup from "@/components/otherPages/Signup";
 export const metadata = {
   title:
-    "Signup 1 || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Signup 1 || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function SignupPage1() {
   return (

@@ -1,9 +1,9 @@
 import CommingSoon from "@/components/otherPages/CommingSoon";
 export const metadata = {
   title:
-    "Comming Soon || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Comming Soon || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function CommingSoonPage() {
   return (

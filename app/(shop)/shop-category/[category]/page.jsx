@@ -6,9 +6,9 @@ import ShopCategory from "@/components/shop/ShopCategory";
 import Breadcumb3 from "@/components/shop/Breadcumb3";
 export const metadata = {
   title:
-    "Shop Category || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Shop Category || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default async function ShopCategoryPage(props) {
   const params = await props.params;

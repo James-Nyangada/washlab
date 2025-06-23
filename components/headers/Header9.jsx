@@ -27,7 +27,7 @@ export default function Header9() {
                   >
                     <Image
                       className="text-primary dark:text-tertiary"
-                      alt="washlabs"
+                      alt="washlab"
                       data-uc-svg=""
                       src="/assets/images/common/logo-8-light.svg"
                       width={148}

@@ -8,9 +8,9 @@ import Footer4 from "@/components/footers/Footer4";
 import Community from "@/components/blog/community";
 export const metadata = {
   title:
-    "Blog Details || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog Details || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default async function BlogDetailsPage1(props) {
   const params = await props.params;

@@ -11,9 +11,9 @@ import Pricing from "@/components/common/Pricing";
 import React from "react";
 export const metadata = {
   title:
-    "Home 2 || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 2 || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function HomePage2() {
   return (
