@@ -23,7 +23,7 @@ export default function Technology({ blogItem }) {
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
-                    src="/assets/images/blog/post-full.jpg"
+                    src="/assets/images/template/hero-05.jpeg"
                     width="1280"
                     height="853"
                   />

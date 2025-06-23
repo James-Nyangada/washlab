@@ -78,7 +78,7 @@ export default function Blogs2() {
                           </p>
                           <Link
                             className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block"
-                            href={`/blog-details/${elm.id}`}
+                            href={`/projects/samburu-solar-water-network`}
                           >
                             View Detail
                           </Link>

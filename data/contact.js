@@ -7,7 +7,7 @@ export const panels = [
     title: "Email",
     description: "info@washlab.org",
     linkText: "Email us",
-    linkUrl: "#",
+    linkUrl: "mailto:info@washlab.org",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const panels = [
     title: "Phone",
     description: "+254 700 772649 / +254 742 247404",
     linkText: "Call us",
-    linkUrl: "#",
+    linkUrl: "tel:+254700772649",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const panels = [
     title: "Address",
     description: "Commodore Office Suites, Kindaruma Rd, Nairobi.",
     linkText: "Our Office",
-    linkUrl: "#",
+    linkUrl: "https://goo.gl/maps/3b1d8f7z5kF2",
   },
 
 ];

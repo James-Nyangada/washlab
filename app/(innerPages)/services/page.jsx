@@ -11,9 +11,9 @@ import Footer4 from "@/components/footers/Footer4";
 import Header4 from "@/components/headers/Header4";
 export const metadata = {
   title:
-    "Features || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "About WASHLAB Consult | Empowering WASH Innovation in Africa",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Learn the story of WASHLAB Consult—born from passion, grown through partnerships. Discover our mission, values, and vision for transforming WASH systems with technology and inclusion.",
 };
 export default function FeaturesPage() {
   return (
