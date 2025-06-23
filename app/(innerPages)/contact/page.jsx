@@ -10,9 +10,12 @@ import Header4 from "@/components/headers/Header4";
 import Footer4 from "@/components/footers/Footer4";
 export const metadata = {
   title:
-    "Contact 1 || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Contact WASHLAB | Start Your Sustainable WASH Journey Today",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Let’s collaborate on your next WASH project. Contact WASHLAB Consult at our Nairobi HQ or via phone/email. We’re ready to support your water and sanitation goals with expert consultancy.",
+  Keywords:
+"Contact WASHLAB Nairobi, WASH consulting services, Sanitation project inquiry, African water engineers, Climate resilience partners"
+
 };
 export default function ContactPage() {
   return (

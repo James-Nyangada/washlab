@@ -14,9 +14,11 @@ import Footer4 from "@/components/footers/Footer4";
 import Facts from "@/components/homes/home-5/Facts";
 export const metadata = {
   title:
-    "About Us || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "About WASHLAB Consult | Empowering WASH Innovation in Africa.",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Learn the story of WASHLAB Consult—born from passion, grown through partnerships. Discover our mission, values, and vision for transforming WASH systems with technology and inclusion.",
+    Keywords:
+"WASHLAB company background, Water and sanitation innovation, Community WASH impact, Inclusive water governance, African WASH leadership"
 };
 export default function AboutPage() {
   return (

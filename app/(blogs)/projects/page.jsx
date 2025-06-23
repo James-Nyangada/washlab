@@ -8,9 +8,11 @@ import Header4 from "@/components/headers/Header4";
 import Footer4 from "@/components/footers/Footer4";
 export const metadata = {
   title:
-    "Blog Classic || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Our Projects | Sustainable WASH Innovations by WASHLAB Consult",
   description:
-    "washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Explore WASHLAB Consult’s groundbreaking projects—like the Samburu Solar Water Network—that bring smart, sustainable water systems to underserved African communities.",
+    Keywords:
+"Climate-smart water projects, Samburu solar water system, IoT water monitoring Africa, Sustainable sanitation projects, African WASH success stories"
 };
 export default function BlogClassicPage() {
   return (
