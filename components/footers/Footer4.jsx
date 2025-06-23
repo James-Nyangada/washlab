@@ -98,10 +98,10 @@ export default function Footer4() {
                 </p>
                 <ul className="nav-x justify-center gap-2 fw-medium">
                   <li>
-                    <a href="#">Privacy notice</a>
+                    <a href="/privacy">Privacy notice</a>
                   </li>
                   <li>
-                    <a href="#">Legal</a>
+                    <a href="/terms-conditions">Legal</a>
                   </li>
                   <li>
                     <a href="#">Cookie settings</a>

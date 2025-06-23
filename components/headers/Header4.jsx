@@ -49,10 +49,10 @@ export default function Header4() {
                 <div className="uc-navbar-left">
                   <ul className="uc-navbar-nav gap-2 fw-medium">
                     <li>
-                      <a href="#">Customer stories</a>
+                      <a href="/privacy">Privacy</a>
                     </li>
                     <li>
-                      <Link href={`/`}>Terms and conditions</Link>
+                      <Link href={`/terms-condtions`}>Terms and conditions</Link>
                     </li>
                     <li>
                       <Link href={`/`}>
