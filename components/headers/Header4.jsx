@@ -66,10 +66,10 @@ export default function Header4() {
                   <div className="uc-navbar-item">
                     <a
                       className="btn btn-xs p-0 fs-8 text-white"
-                      href="tel:01032701349"
+                      href="tel:254700772649"
                     >
                       <i className="icon-narrow unicon-phone" />
-                      <span className="text-black">Tel: +1 327 1349</span>
+                      <span className="text-black">Tel: +254 700 772649</span>
                     </a>
                   </div>
                   
@@ -115,7 +115,7 @@ export default function Header4() {
                 
                 <Link
                   className="btn btn-md btn-primary rounded-default lg:px-3 text-none shadow-xs d-none lg:d-inline-flex"
-                  href={`/`}
+                  href={`/contact`}
                 >
                   Partner with Us
                 </Link>

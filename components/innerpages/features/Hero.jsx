@@ -50,9 +50,7 @@ export default function Hero() {
                 What separates you from others.
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                We focus on helping you to make useful content more accessible
-                with an utlimate goal for a good sharing profit as a content
-                creator.
+                At WASHLAB, we tackle WASH challenges by integrating technical expertise, innovative technology, and community engagement...
               </p>
             </div>
             <div className="sticky-scene panel vstack gap-4 sm:gap-6 xl:gap-8">

@@ -81,10 +81,10 @@ export const footerLinks3 = [
     links: [
       { href: "/", label: "Quick Links" },
       { href: "/about-us", label: "About" },
-      { href: "/", label: "Services" },
-      { href: "/", label: "Projects" },
-      { href: "/", label: "Insights" },
-      { href: "/", label: "Contact" },
+      { href: "/services", label: "Services" },
+      { href: "/projects", label: "Projects" },
+      { href: "/insights", label: "Insights" },
+      { href: "/contact", label: "Contact" },
     ],
   },
   {
@@ -92,8 +92,8 @@ export const footerLinks3 = [
     links: [
       { href: "/", label: "Contact Us" },
       { href: "/", label: "Location" },
-      { href: "/", label: "Phone Number" },
-      { href: "/", label: "Email" },
+      { href: "tel:254700772649", label: "Phone Number" },
+      { href: "mailto:info@washlab.org", label: "Email" },
     ],
   },
   {

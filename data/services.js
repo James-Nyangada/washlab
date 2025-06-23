@@ -9,21 +9,21 @@ export const services = [
 
 export const featuresMenu = [
   {
-    href: "/page-features",
+    href: "/services/water",
     iconClass: "unicon-checkmark",
     title: "Water",
-    description: "Managing multiple software and tools for different tasks.",
+    description: "Solutions for water management and distribution.",
   },
   {
-    href: "/page-features",
+    href: "/services/technology",
     iconClass: "unicon-chart-pie",
     title: "Technology",
-    description: "The latest industry reports, updates and info.",
+    description: "We design, implement, and optimize sustainable water and sanitationsystems, including boreholes, pipelines, treatment units, and sanitation infrastructure.",
   },
   {
-    href: "/page-features",
+    href: "/services/community",
     iconClass: "unicon-increase-level",
     title: "Community",
-    description: "Suite of tools that cover all aspects of your business.",
+    description: "Empowering communities through education and engagement.",
   },
 ];

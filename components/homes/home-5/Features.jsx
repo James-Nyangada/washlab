@@ -25,7 +25,7 @@ export default function Features() {
                 WASHLAB Consult is an African-born consultancy transforming water and sanitation services through innovation and community partnership. We deliver climate-resilient WASH solutions to underserved communities by blending expert insight, advanced technology, and on-the-ground engagement. Our approach is innovative, impactful, and community-focused, ensuring sustainable outcomes in every project
               </p>
 
-              <Link href={"/"} className="btn btn-md btn-primary rounded-default text-white">Learn More</Link>
+              <Link href={"/about-us"} className="btn btn-md btn-primary rounded-default text-white">Learn More</Link>
             </div>
             
           </div>

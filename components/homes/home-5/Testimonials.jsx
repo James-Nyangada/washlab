@@ -23,7 +23,7 @@ export default function Testimonials() {
                     <div className="panel vstack justify-center gap-3 px-3 py-4 lg:px-5 lg:py-6">
                       <div className="panel vstack items-center gap-2">
                         <div className="panel">
-                          <div className="hstack h-48px">
+                          {/* <div className="hstack h-48px">
                             <Image
                               className="w-128px dark:d-none"
                               alt="Brand"
@@ -38,7 +38,7 @@ export default function Testimonials() {
                               width="165"
                               height="48"
                             />
-                          </div>
+                          </div> */}
                         </div>
                         <p className="fs-5 lg:fs-4 xl:fs-3 fw-medium text-dark dark:text-white lg:px-6">
                           “We’re looking for people who share our vision! most

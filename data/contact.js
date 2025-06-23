@@ -1,12 +1,12 @@
 export const panels = [
   {
     id: 1,
-    lightIcon: "/assets/images/template/icon-location.svg",
+    lightIcon: "/assets/images/template/icon-internet.svg",
     darkIcon: "/assets/images/template/icon-location-dark.svg",
     altText: "location-icon",
-    title: "Visit us",
-    description: "Don Valley, Toronto, CA",
-    linkText: "View on maps",
+    title: "Email",
+    description: "info@washlab.org",
+    linkText: "Email us",
     linkUrl: "#",
   },
   {
@@ -14,31 +14,22 @@ export const panels = [
     lightIcon: "/assets/images/template/icon-chat.svg",
     darkIcon: "/assets/images/template/icon-chat-dark.svg",
     altText: "chat-icon",
-    title: "Via chat",
-    description: "Get instant answers.",
-    linkText: "Let's chat",
+    title: "Phone",
+    description: "+254 700 772649 / +254 742 247404",
+    linkText: "Call us",
     linkUrl: "#",
   },
   {
     id: 3,
-    lightIcon: "/assets/images/template/icon-internet.svg",
+    lightIcon: "/assets/images/template/icon-location.svg",
     darkIcon: "/assets/images/template/icon-internet-dark.svg",
     altText: "internet-icon",
-    title: "Report Issue",
-    description: "Get priority support.",
-    linkText: "Send report",
+    title: "Address",
+    description: "Commodore Office Suites, Kindaruma Rd, Nairobi.",
+    linkText: "Our Office",
     linkUrl: "#",
   },
-  {
-    id: 4,
-    lightIcon: "/assets/images/template/icon-community.svg",
-    darkIcon: "/assets/images/template/icon-community-dark.svg",
-    altText: "community-icon",
-    title: "Our community",
-    description: "Connect with users.",
-    linkText: "Join us now",
-    linkUrl: "#",
-  },
+
 ];
 
 export const horizontalPanels = [

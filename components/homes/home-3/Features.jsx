@@ -59,7 +59,7 @@ export default function Features() {
                                 </a>
                               )}
                             </div>
-                            <Link href={"/"} className="btn btn-md btn-primary rounded-default text-white mt-3">
+                            <Link href={"/projects/samburu-solar-water-network"} className="btn btn-md btn-primary rounded-default text-white mt-3">
                             View Project
                           </Link>
                           </div>

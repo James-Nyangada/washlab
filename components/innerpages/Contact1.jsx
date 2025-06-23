@@ -46,8 +46,7 @@ export default function Contact1() {
                 Let's get in touch.
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                Feel free to reach out to us using the options below, and our
-                dedicated team will respond to your inquiries promptly.
+                We’d love to hear from you. Whether you have a question about our services, are interested in partnering, or just want to learn more about WASHLAB, please reach out!
               </p>
             </div>
             <div className="panel rounded-3 overflow-hidden bg-secondary dark:bg-gray-800">
@@ -59,7 +58,7 @@ export default function Contact1() {
                       <Image
                         className="media-cover image"
                         alt="Hero image"
-                        src="/assets/images/template/hero-contact.jpg"
+                        src="/assets/images/template/hero-about-03.jpeg"
                         width="1500"
                         height="1000"
                       />
@@ -69,16 +68,15 @@ export default function Contact1() {
                       <div className="panel z-1">
                         <div className="vstack gap-3">
                           <p className="fs-5 xl:fs-4 fw-medium">
-                            “This software simplifies the website building
-                            process, making it a breeze to manage our online
-                            presence.”
+                            {/* Quote from the cto about the website */}
+                            "WASHLAB is a game-changer for the water and sanitation industry. With its cutting-edge technology and community-driven approach, it empowers us to deliver sustainable solutions that truly make a difference."
                           </p>
                           <div className="vstack gap-0">
                             <p className="fs-6 lg:fs-5 fw-medium">
-                              David Larry
+                              Marvin Oyuke
                             </p>
                             <span className="fs-7 opacity-80">
-                              Founder &amp; CEO
+                              Founder &amp; CTO
                             </span>
                           </div>
                         </div>
@@ -113,6 +111,20 @@ export default function Contact1() {
                         />
                       </div>
                     </div>
+                    <select className="form-control h-50px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white">
+                      <option value="" disabled selected>
+                        Select a topic
+                      </option>
+                      <option value="general">General Inquiry</option>
+                      <option value="partnership">Partnership</option>
+                      <option value="support">Partnership</option>
+                      <option value="feedback">Media</option>
+                    </select>
+                    <input
+                      className="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
+                      type="text"
+                      placeholder="Organization"
+                    />
                     <input
                       className="form-control h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
                       type="text"
@@ -131,7 +143,7 @@ export default function Contact1() {
                       Send message
                     </button>
                     <p className="text-center">
-                      Or drop us a message via
+                      Or drop us a message via {" "}
                       <a className="uc-link" href="mailto:hello@lexend.co">
                         email
                       </a>

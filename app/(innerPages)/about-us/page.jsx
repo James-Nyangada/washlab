@@ -11,6 +11,7 @@ import Team from "@/components/homes/home-1/Team";
 import Cta from "@/components/innerpages/Cta";
 import Header4 from "@/components/headers/Header4";
 import Footer4 from "@/components/footers/Footer4";
+import Facts from "@/components/homes/home-5/Facts";
 export const metadata = {
   title:
     "About Us || washlabs - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -24,12 +25,14 @@ export default function AboutPage() {
         <Header4 />
         <div id="wrapper" className="wrap">
           <About />
+          <Facts/>
           <AboutValues />
           <About2/>
-          <Feedback />
-          <Timeline />
           <Team />
-          <Cta />
+          {/* <Feedback /> */}
+          <Timeline />
+          
+          {/* <Cta /> */}
         </div>
         <Footer4 />
       </div>

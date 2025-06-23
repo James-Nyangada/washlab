@@ -27,6 +27,27 @@ export const panelData = [
       "We strive to be empathetic to every customer and colleague and by doing so we provide a better experience for all.",
   },
 ];
+export const panelData1 = [
+  {
+    id: 1,
+    lightIcon: "/assets/images/template/icon-diamond.svg",
+    darkIcon: "/assets/images/template/icon-diamond-dark.svg",
+    altText: "impact-icon",
+    title: "Vision",
+    description:
+      "To deliver innovative, climate-resilient, and sustainable WASH solutions to underserved communities through expert consultancy, data-driven insights, and advanced technology..",
+  },
+  {
+    id: 2,
+    lightIcon: "/assets/images/template/icon-trophy.svg",
+    darkIcon: "/assets/images/template/icon-trophy-dark.svg",
+    altText: "crown-icon",
+    title: "Mission",
+    description:
+      "To become a globally recognised, African-bornleader in transforming WASH systems through innovation, technology and community empowerment.",
+  },
+  
+];
 
 export const features = [
   {
@@ -109,39 +130,33 @@ export const features3 = [
 export const features4 = [
   {
     icon: "unicon-document",
-    title: "Proposals",
+    title: "CONSULTATION",
     description:
-      "Share Tools in minutes with pre-built, customizable templates.",
+      "Needs assessments and site visits",
   },
   {
     icon: "unicon-model",
-    title: "Quotes",
+    title: "DELIBERATION",
     description:
-      "Find out in real time when they’re opened, viewed and signed.",
+      "Scenario planning and option modeling",
   },
   {
     icon: "unicon-task-approved",
-    title: "Contracts",
+    title: "SOLUTION",
     description:
       "Use our native CRM integrations to pull customer data into your Tools fast.",
   },
   {
     icon: "unicon-touch-interaction",
-    title: "eSignatures",
+    title: "EVALUATION",
     description:
-      "Keep your data secure with our legally-binding e-Signature software.",
+      "Monitor water flow, system health, and usage patterns",
   },
   {
     icon: "unicon-sub-volume",
-    title: "Forms",
+    title: "FINALIZATION",
     description:
-      "Share via direct link or by embedding them on your website, no coding necessary.",
-  },
-  {
-    icon: "unicon-currency",
-    title: "Payments",
-    description:
-      "Collect them instantly right from your contract, while increasing your close rate by 36%.",
+      "Handover infrastructure and tools to community custodian",
   },
 ];
 
@@ -286,39 +301,30 @@ export const features5 = [
 export const features6 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.svg",
-    imgAlt: "Share tools quickly and confidently in minutes",
-    title: "Share tools quickly and confidently in minutes",
+    imgSrc: "/assets/images/template/hero-about-02.jpeg",
+    imgAlt: "Water",
+    title: "Water",
     description:
-      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.",
-    link: null,
+      "We design, implement, and optimize sustainable water and sanitationsystems, including boreholes, pipelines,  treatment units, and sanitation infrastructure. ",
+    link:{ text: "View More", href: "/services/water" },
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/feature-02.svg",
+    imgSrc: "/assets/images/template/hero-05.jpeg",
     imgAlt: "Connect every part of your entire business",
-    title: "Connect every part of your entire business",
+    title: "Technology",
     description:
-      "Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.",
-    link: { text: "See all integrations", href: "#" },
+      "We integrate smart technologies—such as IoT sensors, GIS, and mobile monitoring tools—into water infrastructure to improve performance, reduce downtime, and enable real-time decision-making.",
+    link: { text: "View More", href: "/services/technology" },
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/feature-03.svg",
+    imgSrc: "/assets/images/template/feature-01.jpeg",
     imgAlt: "Maintain compliance and control your apps",
-    title: "Maintain compliance and control your apps",
+    title: "Community",
     description:
-      "Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks, and lock all legal information to prevent costly mistakes.",
-    link: null,
-  },
-  {
-    id: 4,
-    imgSrc: "/assets/images/template/feature-04.svg",
-    imgAlt: "Review quickly and confidently",
-    title: "Review quickly and confidently",
-    description:
-      "Get real-time access to approvals, comments, and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.",
-    link: null,
+      "Our approach ensures every solution is community-owned. We engage, train,and empower local institutions to manage WASH infrastructure effectively and equitably, embedding sustainability from the ground up.",
+    link: { text: "View More", href: "/services/community" },
   },
 ];
 

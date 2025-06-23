@@ -16,7 +16,7 @@ export default function KeyFeatures() {
                 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
-                Review quickly and confidently using
+                Our Integrated Approach in
                 <span className="text-primary"> washlabs.</span>
               </h2>
               <div className="panel">
@@ -42,10 +42,10 @@ export default function KeyFeatures() {
                               </div>
                             </div>
                           </div>
-                          <Link
+                          <div
                             href={`/page-features`}
                             className="position-cover"
-                          ></Link>
+                          ></div>
                         </div>
                       </div>
                     </div>

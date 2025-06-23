@@ -6,13 +6,13 @@ import Pagination from "../common/Pagination";
 
 export default function Blogs2() {
   return (
-    <div className="section panel overflow-hidden">
+    <div className="section panel overflow-hidden mt-5">
       <div className="section-outer panel py-6 lg:py-9">
         <div className="container max-w-lg">
           <div className="section-inner panel vstack gap-3 sm:gap-6 lg:gap-9">
             <header className="page-header vstack justify-center items-center gap-2 md:gap-4 text-center max-w-650px mx-auto">
-              <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                Blog — Classic
+              <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0 mt-5">
+                PROJECT PORTFOLIO
               </h1>
             </header>
             <div className="row child-cols-12 sm:child-cols-4 col-match gy-4 gx-2 xl:gx-4">
@@ -36,12 +36,13 @@ export default function Blogs2() {
                               data-caption="Maximizing your reach with marketing strategies"
                             ></Link>
                           </figure>
-                          <Link
+                          <div
                             className="post-category text-primary fw-normal text-none fw-bold fs-7 py-narrow px-1 rounded bg-primary text-white position-absolute top-0 start-0 m-2"
-                            href={`/blog-category/${elm.category}`}
+                            
                           >
-                            {elm.category}
-                          </Link>
+                            {elm.status}
+                          </div>
+                          
                         </div>
                       </div>
                       <div>
@@ -49,19 +50,12 @@ export default function Blogs2() {
                           <ul className="post-meta nav-x ft-tertiary justify-start gap-1 fs-7">
                             <li>
                               <div className="hstack gap-narrow ft-tertiary">
-                                <Image
-                                  src={elm.authorImg}
-                                  alt="David"
-                                  width={150}
-                                  height={150}
-                                  className="w-24px h-24px rounded-circle me-narrow"
-                                />
-                                <Link
-                                  href={`/blog-author/Amir Khan`}
+                                <div
+                                  
                                   className="text-none fw-bold text-dark dark:text-white"
                                 >
-                                  {elm.authorName}
-                                </Link>
+                                  {elm.location}
+                                </div>
                               </div>
                             </li>
                             <li className="opacity-50">•</li>
@@ -72,12 +66,12 @@ export default function Blogs2() {
                             </li>
                           </ul>
                           <h3 className="h4 sm:h5 md:h4 lg:h3 m-0 m-0">
-                            <Link
+                            <div
                               className="text-none"
-                              href={`/blog-details/${elm.id}`}
+                              
                             >
                               {elm.title}
-                            </Link>
+                            </div>
                           </h3>
                           <p className="fs-6 md:fs-5 d-none md:d-block">
                             {elm.desc}
@@ -86,7 +80,7 @@ export default function Blogs2() {
                             className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block"
                             href={`/blog-details/${elm.id}`}
                           >
-                            Continue reading
+                            View Detail
                           </Link>
                         </div>
                       </div>
@@ -95,14 +89,14 @@ export default function Blogs2() {
                 </div>
               ))}
             </div>
-            <div className="nav-pagination fw-medium">
+            {/* <div className="nav-pagination fw-medium">
               <ul
                 className="nav-x uc-pagination hstack gap-1 justify-center ft-secondary"
                 data-uc-margin=""
               >
                 <Pagination />
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ export default function Nav3() {
       </li>
 
       <li className="has-dd-menu" style={{ position: "relative" }}>
-        <a href="#" role="button" aria-haspopup="true">
+        <a href="/services" role="button" aria-haspopup="true">
           Services{" "}
           <span
             data-uc-navbar-parent-icon=""
@@ -56,10 +56,10 @@ export default function Nav3() {
         </div>
       </li>
       <li>
-        <Link href={`/`}>Project</Link>
+        <Link href={`/projects`}>Project</Link>
       </li>
       <li>
-        <Link href={`/`}>Insights</Link>
+        <Link href={`/insights`}>Insights</Link>
       </li>
     </>
   );

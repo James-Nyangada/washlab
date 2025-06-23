@@ -1,5 +1,5 @@
 import { facts } from "@/data/facts";
-import { panelData } from "@/data/features";
+import { panelData, panelData1 } from "@/data/features";
 import React from "react";
 import Image from "next/image";
 

@@ -247,6 +247,23 @@ export const blogsPosts4 = [
   {
     id: 26,
     category: "Strategy",
+    status: "completed",
+    imgSrc: "/assets/images/template/hero-about-03.jpeg",
+    imgAlt: "Top 5 reasons to invest in marketing",
+    imgCaption: "Top 5 reasons to invest in marketing",
+    title: "Samburu Solar Water Network",
+    authorImg: "/assets/images/avatars/02.png",
+    authorAlt: "David",
+    desc: "In Samburu County, Kenya, WASHLAB deployed a solar-powered water supply system with remote IoT monitoring.",
+    location: "Samburu",
+    date: "2024",
+  },
+  
+];
+export const blogsPosts41 = [
+  {
+    id: 26,
+    category: "Strategy",
     imgSrc: "/assets/images/blog/img-01.jpg",
     imgAlt: "Top 5 reasons to invest in marketing",
     imgCaption: "Top 5 reasons to invest in marketing",
@@ -388,6 +405,7 @@ export const blogsPosts4 = [
     date: "Apr 3, 2024",
   },
 ];
+
 
 export const blogPosts5 = [
   {

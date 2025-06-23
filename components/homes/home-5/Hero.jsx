@@ -27,10 +27,10 @@ export default function Hero() {
                   </p>
                   <div className="hstack gap-2 mt-3">
             
-                        <Link href={"/"} className="btn btn-md btn-primary rounded-default text-white">
+                        <Link href={"/contact"} className="btn btn-md btn-primary rounded-default text-white">
                           Partner with Us
                         </Link>
-                        <Link href={"/"} className="btn btn-md btn-primary rounded-default  text-white">
+                        <Link href={"/projects"} className="btn btn-md btn-primary rounded-default  text-white">
                           Explore Our Work
                         </Link>
                 

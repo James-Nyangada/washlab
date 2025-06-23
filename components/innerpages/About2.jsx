@@ -6,7 +6,7 @@ export default function About2() {
   return (
     <div
       id="about_us"
-      className="about-us section panel overflow-hidden"
+      className="about-us section panel overflow-hidden mb-2"
       data-anime="onview: -100; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
     >
       <div className="section-outer panel py-6 xl:py-9 bg-secondary dark:bg-gray-800">
