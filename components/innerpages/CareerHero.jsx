@@ -44,13 +44,10 @@ export default function CareerHero() {
           >
             <div className="vstack items-center gap-2 lg:gap-4 mb-4 sm:mb-6 lg:mb-8 max-w-850px mx-auto text-center">
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                Careers.
+                Join a Team That's Building a Better Future
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                We are looking for people that share our vision. Are you
-                adaptable, driven, and friendly? Do you thrive in a fast-paced
-                work environment where collaboration is the norm? If the answer
-                is yes, then you’re a what we looking for.
+                Are you adaptable, driven, and passionate about creating lasting impact? We are looking for people who share our vision of a water-secure Africa. At WASHLAB, you won't just have a job; you'll be part of a collaborative, innovative team that is solving some of the world's most critical challenges. We are a fast-paced, growing organization where your work will directly contribute to transforming communities. 
               </p>
             </div>
             <div className="panel">
@@ -58,7 +55,7 @@ export default function CareerHero() {
                 <Image
                   className="media-cover image uc-transition-scale-up uc-transition-opaque"
                   alt="Career"
-                  src="/assets/images/template/career.jpg"
+                  src="/assets/images/template/hero-05.jpeg"
                   width="1500"
                   height="1000"
                 />

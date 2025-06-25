@@ -2,6 +2,7 @@ import { facts } from "@/data/facts";
 import { panelData, panelData1 } from "@/data/features";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Facts() {
   return (
@@ -51,6 +52,9 @@ export default function Facts() {
                           <p className="fs-6 opacity-70 dark:opacity-80">
                             {panel.description}
                           </p>
+                          <Link className="uc-link fw-bold hstack gap-narrow justify-center" href={panel.linkUrl}>
+                            Explore
+                          </Link>
                         </div>
                       </div>
                     ))}

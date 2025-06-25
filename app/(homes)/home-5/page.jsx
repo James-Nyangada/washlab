@@ -40,7 +40,7 @@ export default function HomePage5() {
           
           {/* <Howworks /> */}
           {/* <Pricing /> */}
-          <Testimonials />
+          {/* <Testimonials /> */}
           <Brands />
           {/* <Faq /> */}
           {/* <Support /> */}

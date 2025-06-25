@@ -21,9 +21,9 @@ export default function Hero() {
                     Turning Water Challenges into Sustainable Opportunities.
                   </h1>
                   <p className="fs-6 xl:fs-4">
-                    We deliver innovative, climate-resilient 
+                   We are an African-born consultancy 
                     <br className="d-none lg:d-block" />
-                    WASH solutions by integrating advanced technology with deep community partnership
+                    delivering climate-resilient WASH solutions by integrating advanced technology with deep community partnership.
                   </p>
                   <div className="hstack gap-2 mt-3">
             

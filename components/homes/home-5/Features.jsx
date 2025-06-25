@@ -16,13 +16,13 @@ export default function Features() {
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <span className="fw-bold py-narrow px-2 border rounded-pill text-primary dark:text-secondary">
-                About us
+                Our Integrated Approach
               </span>
               <h2 className="h3 sm:h2 lg:h1 xl:display-6 m-0">
-                Who we are
+                Water. Technology. Community. One Integrated Solution.
               </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70">
-                WASHLAB Consult is an African-born consultancy transforming water and sanitation services through innovation and community partnership. We deliver climate-resilient WASH solutions to underserved communities by blending expert insight, advanced technology, and on-the-ground engagement. Our approach is innovative, impactful, and community-focused, ensuring sustainable outcomes in every project
+                At WASHLAB, we solve complex WASH challenges by refusing to see them in isolation. Our strength lies in our unique, integrated methodology, where robust engineering, smart technology, and authentic community ownership converge. This is how we build solutions that are not just functional, but truly sustainable and transformative. 
               </p>
 
               <Link href={"/about-us"} className="btn btn-md btn-primary rounded-default text-white">Learn More</Link>

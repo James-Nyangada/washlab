@@ -12,8 +12,9 @@ export default function Blogs2() {
           <div className="section-inner panel vstack gap-3 sm:gap-6 lg:gap-9">
             <header className="page-header vstack justify-center items-center gap-2 md:gap-4 text-center max-w-650px mx-auto">
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0 mt-5">
-                PROJECT PORTFOLIO
+                Our Work in Action: Stories of Impact and Innovation
               </h1>
+              <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">Our projects are more than just infrastructure; they are partnerships that create lasting change. Each case study below details how we integrate technology, engineering, and community engagement to turn complex water challenges into sustainable opportunities. Explore our work to see the tangible impact we deliver.</p>
             </header>
             <div className="row child-cols-12 sm:child-cols-4 col-match gy-4 gx-2 xl:gx-4">
               {blogsPosts4.slice(0, 7).map((elm, i) => (
@@ -78,7 +79,7 @@ export default function Blogs2() {
                           </p>
                           <Link
                             className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block"
-                            href={`/projects/samburu-solar-water-network`}
+                            href={elm.link}
                           >
                             View Detail
                           </Link>

@@ -16,7 +16,7 @@ export default function Community({ blogItem }) {
                 <h1 className="h4 sm:h2 lg:h1 xl:display-6">
                  Empowering People and Partnerships for Lasting Impact.
                 </h1>
-                <p>Use the detailed descriptions from the website content document, focusing on co-creation, capacity building, policy advisory, and social inclusion. Present key community services in a bulleted format.</p>
+                <p> At WASHLAB, we hold a core conviction: technology and infrastructure can only succeed when they are embraced and owned by the community. A solution is only truly sustainable if it is socially sustainable. Our approach is therefore deeply rooted in partnership, co-creation, and empowerment, ensuring that every solution is designed with, not for, the community it serves. This embeds sustainability from the ground up and transforms projects into lasting community assets.</p>
               </div>
               <figure className="featured-image m-0">
                 <figure className="featured-image m-0 rounded ratio ratio-2x1 rounded uc-transition-toggle overflow-hidden">
@@ -46,11 +46,11 @@ export default function Community({ blogItem }) {
                 </p>
                 <h6 className="text-center h4 mt-3">Key Services:</h6>
                 <ul className="justify-center list-unstyled mt-2 mb-4">
-                  <li>Community engagement and co-creation</li>
-                  <li>Training of water committees and technicians</li>
-                  <li>Policy advisory on inclusive WASH governance</li>
-                  <li>Social inclusion and behavior change campaigns</li>
-                  <li>GIS mapping for WASH asset management</li>
+                  <li className="font-bold">A Rigorous Participatory Process:</li><span>We employ a structured, six-phase participatory methodology that guides our engagement from start to finish. As detailed in our work with partners like Plan International, this process moves systematically from collaborative scoping and situation analysis to the co-creation of actionable plans. We utilize a suite of Participatory Vulnerability Assessment PVA tools to ensure community voices, knowledge, and priorities are the driving force behind the design of all interventions.</span>
+                  <li className="font-bold">Gender-Responsive and Socially Inclusive (GESI) Planning</li><span>We recognize that climate and water challenges have differentiated impacts. GESI is not an add-on; it is central to our methodology. We integrate dedicated GESI specialists into our teams, utilize gender-sensitive data collection tools, and create safe, inclusive spaces for women, youth, and marginalized groups to articulate their unique needs and capacities. This ensures that the solutions we co-create are equitable and actively promote women's agency and leadership in WASH governance and climate adaptation.</span>
+                  <li className="font-bold">Capacity Building for Local Institutions:</li><span>Our goal is to build lasting local capacity. We design and deliver targeted training for community water committees, local technicians, and government partners. This empowerment covers technical operations and maintenance, financial management, and inclusive governance, strengthening the local institutions required to manage WASH infrastructure effectively and equitably long after our direct involvement ends</span>
+                  <li className="font-bold">Policy Advisory and Advocacy: </li><span>We bridge the gap between grassroots realities and policy frameworks. By synthesizing findings from our community-level assessments, we develop evidence-based policy briefs and provide strategic advice to county and national governments. This work helps to create a more enabling policy environment for inclusive, community-led WASH governance and climate action.</span>
+                  
                   
 
                 </ul>

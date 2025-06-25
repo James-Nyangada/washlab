@@ -4,27 +4,30 @@ export const panelData = [
     lightIcon: "/assets/images/template/icon-diamond.svg",
     darkIcon: "/assets/images/template/icon-diamond-dark.svg",
     altText: "impact-icon",
-    title: "Water",
+    title: "Engineering for Resilience",
+    linkUrl: "/services/water",
     description:
-      "We’re building something big. Something that has the power to change the trajectory of any sized business for the better.",
+      "We design, implement, and optimize sustainable water and sanitation systems built to withstand the pressures of climate change. From hydrogeological assessments to large-scale infrastructure, our engineering is precise, context-specific, and built to last.",
   },
   {
     id: 2,
     lightIcon: "/assets/images/template/icon-trophy.svg",
     darkIcon: "/assets/images/template/icon-trophy-dark.svg",
     altText: "crown-icon",
-    title: "Technology",
+    title: "Data-Driven Innovation",
+    linkUrl: "/services/technology",
     description:
-      "Teams are masters of their craft though we’re all experts in our respective fields, we always make time to expand our minds.",
+      "We embed smart technology—IoT sensors, GIS mapping, and real-time data dashboards—into every system. This digital layer transforms infrastructure into an intelligent network, enabling predictive maintenance, optimizing performance, and empowering data-driven decisions",
   },
   {
     id: 3,
     lightIcon: "/assets/images/template/icon-crown.svg",
     darkIcon: "/assets/images/template/icon-crown-dark.svg",
     altText: "empathy-icon",
-    title: "Community",
+    title: "Empowering Local Ownership",
+    linkUrl: "/services/community",
     description:
-      "We strive to be empathetic to every customer and colleague and by doing so we provide a better experience for all.",
+      "A solution is only sustainable if it is community-owned. We facilitate co-creation, build the capacity of local institutions, and empower communities to manage their own WASH systems effectively and equitably, ensuring lasting impact from the ground up.",
   },
 ];
 export const panelData1 = [
@@ -113,10 +116,10 @@ export const features3 = [
   {
     id: 1,
     imgSrc: "/assets/images/template/feature-01.jpeg",
-    altText: "Samburu Project",
+    altText: "The Samburu Solar Water Network",
     step: "01.",
-    title: "Samburu Project",
-    description: `Working with local leaders in Samburu, Kenya, WASHLAB implemented a solar-powered water supply with remote IoT monitoring. This climate-smart system now provides a continuous flow of safe water... we trained community members to operate and maintain the network, ensuring local ownership and long-term sustainability.`,
+    title: "The Samburu Solar Water Network",
+    description: `In the arid landscapes of Samburu County, we engineered a climate-smart solution. By deploying a solar-powered water supply system integrated with remote IoT monitoring, we provided over 3,000 people with uninterrupted access to safe water. Crucially, we trained community technicians to operate and maintain the network, embedding local ownership and guaranteeing long-term resilience.`,
     testimonial: {
       quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on building out programs to help our employees.”`,
       imgSrc: "/assets/images/avatars/01.png",
@@ -193,8 +196,8 @@ export const featureItems = [
   },
   {
     imageSrc: "/assets/images/template/home-four-feature-04.png",
-    altText: "Collaboration is made seamless with washlab",
-    title: "Collaboration is made seamless with washlab",
+    altText: "Collaboration is made seamless with washlabs",
+    title: "Collaboration is made seamless with washlabs",
     description:
       "Get real-time access to approvals, comments and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.",
     linkText: "Let's find out",

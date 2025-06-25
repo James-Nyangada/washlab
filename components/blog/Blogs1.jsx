@@ -6,7 +6,7 @@ import Pagination from "../common/Pagination";
 
 export default function Blogs1() {
   return (
-    <div className="section panel overflow-hidden">
+    <div className="section panel overflow-hidden mt-5">
       <div className="section-outer panel py-6 lg:py-9">
         <div
           className="position-absolute top-0 start-0 end-0 min-h-screen overflow-hidden d-none lg:d-block"
@@ -46,8 +46,9 @@ export default function Blogs1() {
           >
             <header className="page-header vstack justify-center items-center gap-2 md:gap-4 text-center max-w-650px mx-auto">
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                Insights
+                Insights from the Forefront of WASH Innovation
               </h1>
+              <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">Here, we share our analysis, perspectives, and learnings from our work across Africa. Explore our articles to understand the emerging trends, innovative models, and critical conversations shaping the future of water, sanitation, and hygiene.</p>
             </header>
             <div className="row child-cols-12 sm:child-cols-4 col-match gy-4 sm:gy-6 xl:gy-8 gx-2 xl:gx-4">
               {blogsPosts41.slice(0, 1).map((elm, i) => (
@@ -63,45 +64,39 @@ export default function Blogs1() {
                             height={853}
                             alt="Maximizing your reach with marketing strategies"
                           />
-                          <Link
-                            href={`/blog-details/${elm.id}`}
+                          <div
+                            
                             className="position-cover"
                             data-caption="Maximizing your reach with marketing strategies"
-                          ></Link>
+                          ></div>
                         </figure>
                       </div>
                       <div>
                         <div className="vstack items-center gap-2 lg:gap-3">
-                          <Link
+                          <div
                             className="post-category text-primary fw-normal text-none fw-bold fs-7 bg-primary text-white py-narrow px-1 rounded"
-                            href={`/blog-category/${elm.category}`}
+                            
                           >
                             {elm.category}
-                          </Link>
+                          </div>
                           <h3 className="h4 xl:h2 m-0 text-center m-0 lg:w-500px lg:m-auto">
-                            <Link
+                            <div
                               className="text-none"
-                              href={`/blog-details/${elm.id}`}
+                             
                             >
                               {elm.title}
-                            </Link>
+                            </div>
                           </h3>
                           <ul className="post-meta nav-x ft-tertiary justify-center fs-7 gap-1">
                             <li>
                               <div className="hstack gap-narrow ft-tertiary">
-                                <Image
-                                  src={elm.authorImg}
-                                  width={150}
-                                  height={150}
-                                  alt="David"
-                                  className="w-24px h-24px rounded-circle me-narrow"
-                                />
-                                <Link
+                                
+                                <div
                                   href={`/blog-author/Amir Khan`}
                                   className="text-none fw-bold text-dark dark:text-white"
                                 >
                                   {elm.authorName}
-                                </Link>
+                                </div>
                               </div>
                             </li>
                             <li className="opacity-50">•</li>
@@ -114,19 +109,19 @@ export default function Blogs1() {
                           <p className="fs-6 lg:fs-5 lg:w-500px lg:mx-auto text-center md:d-none lg:d-block">
                             {elm.desc}
                           </p>
-                          <Link
+                          {/* <Link
                             className="btn btn-text text-primary border-bottom d-inline-flex fs-7 lg:fs-6 sm:mt-2"
                             href={`/blog-details/${elm.id}`}
                           >
                             Continue reading
-                          </Link>
+                          </Link> */}
                         </div>
                       </div>
                     </div>
                   </article>
                 </div>
               ))}
-              {blogsPosts4.slice(1, 7).map((elm, i) => (
+              {blogsPosts41.slice(1, 7).map((elm, i) => (
                 <div key={i}>
                   <article className="post type-post panel vstack gap-3 rounded-3 p-2 pb-3 bg-secondary dark:bg-gray-800">
                     <Link

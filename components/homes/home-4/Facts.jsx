@@ -1,5 +1,7 @@
+"use client"
 import { factItems } from "@/data/facts";
 import React from "react";
+import CountUp from 'react-countup';
 
 export default function Facts() {
   return (
@@ -15,7 +17,7 @@ export default function Facts() {
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <h2 className="h4 md:h3 m-0">
-                Everything you need is right at your fingertips
+               Our Impact, By the Numbers
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
                 washlab is designed to make your work life easier and more
@@ -34,7 +36,7 @@ export default function Facts() {
                   <div key={index}>
                     <div className="fact-item panel vstack gap-1">
                       <h5 className="h3 md:h2 lg:h1 xl:display-5 m-0 text-primary dark:text-secondary">
-                        {fact.value}
+                        <CountUp end={fact.value} duration={2} suffix="+"  />
                       </h5>
                       <p className="fw-medium">{fact.description}</p>
                     </div>

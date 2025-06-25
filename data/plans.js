@@ -6,7 +6,7 @@ export const panelsData = [
     altText: "impact-icon",
     title: "Sustainability",
     description:
-      "We champion environmentally, financially, and socially sustainable solutions",
+      "We champion solutions that are environmentally sound, financially viable, and socially equitable, ensuring benefits endure for generations.",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const panelsData = [
     altText: "crown-icon",
     title: "Innovation",
     description:
-      "Cutting-edge technology to create future-ready systems",
+      "We leverage cutting-edge technology and forward-thinking strategies to design and build future-ready WASH systems.",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const panelsData = [
     altText: "fun-icon",
     title: "Integrity",
     description:
-      "We work hard and play harder. We believe in the importance of celebrating wins big or small, for the business or individuals.",
+      "We operate with unwavering transparency and accountability, building trust with our partners and the communities we serve through ethical and honest practice. ",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const panelsData = [
     altText: "empathy-icon",
     title: "Collaboration",
     description:
-      "Work hand-in-hand with communities, governments, and partners",
+      "We work hand-in-hand with communities, governments, and partners, believing that the most powerful solutions are co-created",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const panelsData = [
     altText: "empathy-icon",
     title: "Impact",
     description:
-      "Real-world, quantifiable improvements in water and sanitation access.",
+      "We are committed to delivering real-world, quantifiable improvements in water access, public health, and community resilience. ",
   },
   {
     id: 6,
@@ -51,6 +51,6 @@ export const panelsData = [
     altText: "empathy-icon",
     title: "Excellence",
     description:
-      "Highest standards of quality and delivery.",
+      "We hold ourselves to the highest standards of quality, rigor, and execution in every aspect of our work. ",
   },
 ];

@@ -16,7 +16,7 @@ export default function Technology({ blogItem }) {
                 <h1 className="h4 sm:h2 lg:h1 xl:display-6">
                  Data-Driven Innovation for Smarter WASH Management.
                 </h1>
-                <p>Use the detailed descriptions from the website content document, focusing on IoT integration, data analytics, and digital M&E tools. Itemize key technology services in a bulleted list.</p>
+                <p>We believe that the future of WASH is digital. By integrating a layer of smart technology into physical infrastructure, we transform conventional water systems into intelligent, responsive networks. This digital approach moves our partners from a reactive to a predictive operational model, unlocking unprecedented efficiencies, enabling data-driven decision-making, and creating new pathways for financial sustainability.We believe that the future of WASH is digital. By integrating a layer of smart technology into physical infrastructure, we transform conventional water systems into intelligent, responsive networks. This digital approach moves our partners from a reactive to a predictive operational model, unlocking unprecedented efficiencies, enabling data-driven decision-making, and creating new pathways for financial sustainability.</p>
               </div>
               <figure className="featured-image m-0">
                 <figure className="featured-image m-0 rounded ratio ratio-2x1 rounded uc-transition-toggle overflow-hidden">
@@ -46,11 +46,11 @@ export default function Technology({ blogItem }) {
                 </p>
                 <h6 className="text-center h4 mt-3">Key Services:</h6>
                 <ul className="justify-center list-unstyled mt-2 mb-4">
-                  <li>Community engagement and co-creation</li>
-                  <li>Training of water committees and technicians</li>
-                  <li>Policy advisory on inclusive WASH governance</li>
-                  <li>Social inclusion and behavior change campaigns</li>
-                  <li>GIS mapping for WASH asset management</li>
+                  <li className="font-bold">Smart Infrastructure and IoT Monitoring:</li><span>We embed Internet of Things (IoT) sensors into water systems to provide real-time, continuous monitoring of critical parameters like water flow, system pressure, pump status, and water quality. As implemented in our Samburu and Climate-SMART WASH projects, this technology provides an immediate, live view of system health, drastically reducing downtime and enabling rapid response to operational issues.</span>
+                  <li className="font-bold">Actionable Data Analytics and Dashboards:</li><span>Raw data is only useful when it becomes actionable insight. We develop customized decision-support dashboards that visualize complex data in an intuitive format. These tools empower water utility managers and community operators to track performance, analyze usage patterns, predict maintenance needs, and optimize resource allocation for maximum efficiency</span>
+                  <li className="font-bold">Digital Monitoring, Evaluation, and Learning M&E:</li><span>We leverage a suite of digital tools to conduct robust and efficient M&E. Using platforms like mWater and advanced GIS mapping, we support our partners in tracking project impact, managing WASH assets, and gathering user feedback. Our work with organizations like Water.org demonstrates our capacity to manage large-scale digital surveys and provide the high-quality, verifiable data needed for rigorous program evaluation.</span>
+                  <li className="font-bold">Technology for Innovative Finance:</li><span>Our technology stack is a key enabler of innovative financing models. We design and implement the sophisticated Monitoring, Reporting, and Verification (MRV) systems required for high-integrity carbon credit projects, ensuring compliance with standards like Gold Standard. Furthermore, we develop strategies for data monetization, creating new, sustainable revenue streams from aggregated, anonymized IoT data insights to support the long-term financial health of WASH services.</span>
+                  
                   
 
                 </ul>

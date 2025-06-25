@@ -36,7 +36,7 @@ export const teamMembers = [
   },
   {
     id: 6,
-    name: "BRUCE MKENZIE",
+    name: "BRUCE McKENZIE",
     position: "Supply Chain & Administration Manager",
     imageSrc: "/assets/images/template/team-01.png",
     altText: "BRUCE MKENZIE",
@@ -62,27 +62,7 @@ export const teamMembers = [
     imageSrc: "/assets/images/template/team-01.png",
     altText: "EDWIN KARANJA",
   },
-  {
-    id: 10,
-    name: "WINNIE JEPKOSGEI",
-    position: "Administration and Sanitation Officerd",
-    imageSrc: "/assets/images/template/team-01.png",
-    altText: "EDWIN KARANJA",
-  },
-  {
-    id: 11,
-    name: "SHIRLEY",
-    position: "Engineer",
-    imageSrc: "/assets/images/template/team-01.png",
-    altText: "SHIRLEY",
-  },
-  {
-    id: 12,
-    name: "ALLAN ONDARA",
-    position: "Creative Director",
-    imageSrc: "/assets/images/template/team-01.png",
-    altText: "ALLAN ONDARA",
-  },
+  
 ];
 
 export const teamMembers2 = [

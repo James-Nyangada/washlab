@@ -2884,7 +2884,7 @@ header.uc-header.header-six > .uc-navbar-sticky .uc-navbar-main .uc-navbar {
   --bs-primary-50-rgb: 231, 241, 239;
   --bs-primary-100-rgb: 208, 227, 222;
   --bs-primary-200-rgb: 160, 198, 189;
-  --bs-primary-300-rgb: 113, 170, 157;
+  --bs-primary-300-rgb: 228, 229, 242;
   --bs-primary-400-rgb: 65, 141, 124;
   --bs-primary-500-rgb: var(--bs-primary-rgb);
   --bs-primary-600-rgb: 14, 90, 73;
@@ -3408,6 +3408,9 @@ progress {
   font-size: var(--sizes-heading-h6-size) !important;
   line-height: var(--sizes-heading-h6-lh) !important;
   letter-spacing: var(--sizes-heading-h6-lp) !important;
+}
+.font-bold{
+  font-weight: bold;
 }
 @media (min-width: 459px) {
   .sm\:display-2 {

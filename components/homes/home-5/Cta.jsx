@@ -19,7 +19,7 @@ export default function Cta() {
               <div className="hstack justify-center gap-1 lg:gap-2 mt-1">
               
                 <Link
-                  href={`/`}
+                  href={`/contact`}
                   className="btn btn-md btn-primary rounded-default text-white shadow-xs"
                 >
                   Get In Touch

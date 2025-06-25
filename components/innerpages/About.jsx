@@ -43,17 +43,21 @@ export default function About() {
           >
             <div className="vstack items-center gap-4 mb-4 sm:mb-6 lg:mb-8 max-w-850px mx-auto text-center">
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                About washlab.
+                An African-Born Vision for a Water-Secure Future
               </h1>
+              <span className="fw-bold py-narrow px-2 border rounded-pill text-primary dark:text-secondary">
+                The Why
+              </span>
               <p className="fs-6 md:fs-5 text-dark dark:text-white text-opacity-70">
-                WASHLAB Consult is an African-born consultancy transforming
-                water and sanitation services through innovation and community
-                partnership. We deliver climate-resilient WASH solutions to
-                underserved communities by blending expert insight, advanced
-                technology, and on-the-ground engagement. Our approach is
-                innovative, impactful, and community-focused, ensuring sustainable
-                outcomes in every project.
+                WASHLAB Consult was born from an urgent need to bridge the critical gaps in water, sanitation, and hygiene services across Africa. Our founders—engineers, data scientists, and community specialists—saw communities grappling with unreliable water supplies, the growing threats of climate change, and siloed development efforts that lacked local ownership. In response, WASHLAB was established not just as a consultancy, but as a living laboratory for innovation—a space where science, technology, and community insight converge to solve the continent's most pressing WASH challenges. 
               </p>
+              <span className="fw-bold py-narrow px-2 border rounded-pill text-primary dark:text-secondary">
+                The How
+              </span>
+              <p className="fs-6 md:fs-5 text-dark dark:text-white text-opacity-70">
+                From this foundation, we have grown into a trusted partner for governments and international organizations seeking to deliver sustainable, high-impact WASH programmes. Every project we undertake is guided by a simple, powerful idea: to turn water challenges into opportunities for community transformation, public health, and climate resilience.
+              </p>
+
             </div>
             <div className="panel row child-cols-12 col-match g-1 sm:g-2">
               <div className="col-4">

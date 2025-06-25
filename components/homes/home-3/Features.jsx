@@ -60,7 +60,7 @@ export default function Features() {
                               )}
                             </div>
                             <Link href={"/projects/samburu-solar-water-network"} className="btn btn-md btn-primary rounded-default text-white mt-3">
-                            View Project
+                            Case Study
                           </Link>
                           </div>
                           

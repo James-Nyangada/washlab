@@ -85,6 +85,7 @@ export const footerLinks3 = [
       { href: "/projects", label: "Projects" },
       { href: "/insights", label: "Insights" },
       { href: "/contact", label: "Contact" },
+      { href: "/careers", label: "Careers" },
     ],
   },
   {

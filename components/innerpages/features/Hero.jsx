@@ -47,10 +47,10 @@ export default function Hero() {
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                What separates us from others.
+                Our Integrated Services for a Resilient WASH Future
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                At WASHLAB, we tackle WASH challenges by integrating technical expertise, innovative technology, and community engagement...
+                We offer a comprehensive suite of services designed to address the full lifecycle of WASH challenges. Our three pillars—Water, Technology, and Community—work in synergy to deliver solutions that are technically sound, digitally intelligent, and socially sustainable. Explore our core service areas below to understand how we can support your objectives.
               </p>
             </div>
             <div className="sticky-scene panel vstack gap-4 sm:gap-6 xl:gap-8">

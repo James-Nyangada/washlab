@@ -12,6 +12,7 @@ import Cta from "@/components/innerpages/Cta";
 import Header4 from "@/components/headers/Header4";
 import Footer4 from "@/components/footers/Footer4";
 import Facts from "@/components/homes/home-5/Facts";
+import Features from "@/components/homes/home-8/Features";
 export const metadata = {
   title:
     "About WASHLAB Consult | Empowering WASH Innovation in Africa.",
@@ -27,7 +28,8 @@ export default function AboutPage() {
         <Header4 />
         <div id="wrapper" className="wrap">
           <About />
-          <Facts/>
+          <Features/>
+          {/* <Facts/> */}
           <AboutValues />
           <About2/>
           <Team />
