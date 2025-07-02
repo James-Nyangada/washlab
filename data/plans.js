@@ -1,7 +1,7 @@
 export const panelsData = [
   {
     id: 1,
-    lightImgSrc: "/assets/images/template/icon-diamond.svg",
+    lightImgSrc: "/assets/images/template/Sustainability.png",
     darkImgSrc: "/assets/images/template/icon-diamond-dark.svg",
     altText: "impact-icon",
     title: "Sustainability",
@@ -10,7 +10,7 @@ export const panelsData = [
   },
   {
     id: 2,
-    lightImgSrc: "/assets/images/template/icon-trophy.svg",
+    lightImgSrc: "/assets/images/template/Innovation.png",
     darkImgSrc: "/assets/images/template/icon-trophy-dark.svg",
     altText: "crown-icon",
     title: "Innovation",
@@ -19,7 +19,7 @@ export const panelsData = [
   },
   {
     id: 3,
-    lightImgSrc: "/assets/images/template/icon-globe.svg",
+    lightImgSrc: "/assets/images/template/Integrity.png",
     darkImgSrc: "/assets/images/template/icon-globe-dark.svg",
     altText: "fun-icon",
     title: "Integrity",
@@ -28,7 +28,7 @@ export const panelsData = [
   },
   {
     id: 4,
-    lightImgSrc: "/assets/images/template/icon-crown.svg",
+    lightImgSrc: "/assets/images/template/Collaboration.png",
     darkImgSrc: "/assets/images/template/icon-crown-dark.svg",
     altText: "empathy-icon",
     title: "Collaboration",
@@ -37,7 +37,7 @@ export const panelsData = [
   },
   {
     id: 5,
-    lightImgSrc: "/assets/images/template/icon-crown.svg",
+    lightImgSrc: "/assets/images/template/Impact.png",
     darkImgSrc: "/assets/images/template/icon-crown-dark.svg",
     altText: "empathy-icon",
     title: "Impact",
@@ -46,7 +46,7 @@ export const panelsData = [
   },
   {
     id: 6,
-    lightImgSrc: "/assets/images/template/icon-crown.svg",
+    lightImgSrc: "/assets/images/template/Excellence-2.png",
     darkImgSrc: "/assets/images/template/icon-crown-dark.svg",
     altText: "empathy-icon",
     title: "Excellence",

@@ -1,7 +1,7 @@
 export const panelData = [
   {
     id: 1,
-    lightIcon: "/assets/images/template/icon-diamond.svg",
+    lightIcon: "/assets/images/template/Impact.png",
     darkIcon: "/assets/images/template/icon-diamond-dark.svg",
     altText: "impact-icon",
     title: "Engineering for Resilience",
@@ -11,7 +11,7 @@ export const panelData = [
   },
   {
     id: 2,
-    lightIcon: "/assets/images/template/icon-trophy.svg",
+    lightIcon: "/assets/images/template/Innovation.png",
     darkIcon: "/assets/images/template/icon-trophy-dark.svg",
     altText: "crown-icon",
     title: "Data-Driven Innovation",
@@ -21,7 +21,7 @@ export const panelData = [
   },
   {
     id: 3,
-    lightIcon: "/assets/images/template/icon-crown.svg",
+    lightIcon: "/assets/images/template/Sustainability.png",
     darkIcon: "/assets/images/template/icon-crown-dark.svg",
     altText: "empathy-icon",
     title: "Empowering Local Ownership",
