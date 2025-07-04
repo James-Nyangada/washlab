@@ -7,9 +7,11 @@ import Header4 from "@/components/headers/Header4";
 import Footer4 from "@/components/footers/Footer4";
 export const metadata = {
   title:
-    "Blog 1 || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "WASHLAB Consult | insights - Africa's #1 Climate-Smart WASH Solutions Provider",
   description:
-    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Discover how WASHLAB Consult transforms water, sanitation, and hygiene across Africa through innovative, climate-resilient, community-led solutions. Empowering 30+ communities and 50,000+ lives.",
+    Keywords:
+"Climate-resilient WASH solutions, Innovative water and sanitation consultancy, African WASH experts, Smart water infrastructure, Community-based WASH projects"
 };
 export default function BlogPage1() {
   return (

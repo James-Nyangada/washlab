@@ -8,9 +8,11 @@ import Footer4 from "@/components/footers/Footer4";
 import Technology from "@/components/blog/Technology";
 export const metadata = {
   title:
-    "Blog Details || washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "WASHLAB Consult | technology - Climate-Smart WASH Solutions",
   description:
-    "washlab - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Discover how WASHLAB Consult transforms water, sanitation, and hygiene across Africa through innovative, climate-resilient, community-led solutions. Empowering 30+ communities and 50,000+ lives.",
+    Keywords:
+"Climate-resilient WASH solutions, Innovative water and sanitation consultancy, African WASH experts, Smart water infrastructure, Community-based WASH projects"
 };
 export default async function BlogDetailsPage1(props) {
   const params = await props.params;
