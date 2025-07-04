@@ -32,7 +32,7 @@ export default function AboutPage() {
           {/* <Facts/> */}
           <AboutValues />
           <About2/>
-          <Team />
+          {/* <Team /> */}
           {/* <Feedback /> */}
           <Timeline />
           
