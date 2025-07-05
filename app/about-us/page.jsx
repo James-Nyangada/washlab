@@ -32,6 +32,7 @@ export default function AboutPage() {
           {/* <Facts/> */}
           <AboutValues />
           <About2/>
+          <Brands />
           {/* <Team /> */}
           {/* <Feedback /> */}
           <Timeline />

@@ -1,64 +1,65 @@
 export const brands = [
   {
     id: 1,
-    src: "/assets/images/brands/brand-01.svg",
+    src: "/assets/images/brands/logo-1.png",
     alt: "Proline",
   },
   {
     id: 2,
-    src: "/assets/images/brands/brand-02.svg",
+    src: "/assets/images/brands/logo-2.png",
     alt: "Iceberg",
   },
   {
     id: 3,
-    src: "/assets/images/brands/brand-03.svg",
+    src: "/assets/images/brands/logo-3.png",
     alt: "PinPoint",
   },
   {
     id: 4,
-    src: "/assets/images/brands/brand-04.svg",
+    src: "/assets/images/brands/logo-4.webp",
     alt: "Clues",
   },
   {
     id: 5,
-    src: "/assets/images/brands/brand-05.svg",
-    alt: "Snowflake",
+    src: "/assets/images/brands/logo-1.png",
+    alt: "Clues",
   },
   {
     id: 6,
-    src: "/assets/images/brands/brand-06.svg",
-    alt: "Proline",
+    src: "/assets/images/brands/logo-2.png",
+    alt: "Clues",
   },
   {
     id: 7,
-    src: "/assets/images/brands/brand-01.svg",
-    alt: "Proline",
+    src: "/assets/images/brands/logo-3.png",
+    alt: "Clues",
   },
   {
     id: 8,
-    src: "/assets/images/brands/brand-02.svg",
-    alt: "Iceberg",
+    src: "/assets/images/brands/logo-4.webp",
+    alt: "Clues",
   },
   {
     id: 9,
-    src: "/assets/images/brands/brand-03.svg",
-    alt: "PinPoint",
+    src: "/assets/images/brands/logo-1.png",
+    alt: "Clues",
   },
   {
     id: 10,
-    src: "/assets/images/brands/brand-04.svg",
+    src: "/assets/images/brands/logo-2.png",
     alt: "Clues",
   },
   {
     id: 11,
-    src: "/assets/images/brands/brand-05.svg",
-    alt: "Snowflake",
+    src: "/assets/images/brands/logo-3.png",
+    alt: "Clues",
   },
   {
     id: 12,
-    src: "/assets/images/brands/brand-06.svg",
-    alt: "Proline",
+    src: "/assets/images/brands/logo-4.webp",
+    alt: "Clues",
   },
+  
 ];
 
 export const reviewLogos = [
