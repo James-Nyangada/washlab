@@ -55,7 +55,7 @@ export default function CareerHero() {
                 <Image
                   className="media-cover image uc-transition-scale-up uc-transition-opaque"
                   alt="Career"
-                  src="/assets/images/template/hero-05.jpeg"
+                  src="/assets/images/template/hero-05.webp"
                   width="1500"
                   height="1000"
                 />

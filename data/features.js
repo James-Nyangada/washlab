@@ -115,7 +115,7 @@ export const features2 = [
 export const features3 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.jpeg",
+    imgSrc: "/assets/images/template/feature-01.webp",
     altText: "The Samburu Solar Water Network",
     step: "01.",
     title: "The Samburu Solar Water Network",
@@ -304,7 +304,7 @@ export const features5 = [
 export const features6 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/hero-about-02.jpeg",
+    imgSrc: "/assets/images/template/hero-about-02.webp",
     imgAlt: "Water",
     title: "Water",
     description:
@@ -313,7 +313,7 @@ export const features6 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/hero-05.jpeg",
+    imgSrc: "/assets/images/template/hero-05.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Technology",
     description:
@@ -322,7 +322,7 @@ export const features6 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/feature-01.jpeg",
+    imgSrc: "/assets/images/template/feature-01.webp",
     imgAlt: "Maintain compliance and control your apps",
     title: "Community",
     description:

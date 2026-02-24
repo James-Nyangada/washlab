@@ -86,7 +86,7 @@ export default function Contact1() {
                       <Image
                         className="media-cover image"
                         alt="Hero image"
-                        src="/assets/images/template/hero-about-03.jpeg"
+                        src="/assets/images/template/hero-about-03.webp"
                         width="1500"
                         height="1000"
                       />

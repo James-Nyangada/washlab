@@ -23,7 +23,7 @@ export default function Community({ blogItem }) {
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
-                    src="/assets/images/template/hero-about-03.jpeg"
+                    src="/assets/images/template/hero-about-03.webp"
                     width="1280"
                     height="853"
                   />

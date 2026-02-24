@@ -17,6 +17,7 @@ export default function Footer2() {
                     <div className="vstack gap-2">
                       <Link href={`/`}>
                         <img
+                          loading="lazy"
                           className=" text-primary"
                           alt="washlab"
                           src="/assets/images/common/logo-dark.png"

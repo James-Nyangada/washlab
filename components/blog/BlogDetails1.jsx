@@ -23,7 +23,7 @@ export default function BlogDetails1({ blogItem }) {
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
-                    src="/assets/images/template/hero-about-01.jpeg"
+                    src="/assets/images/template/hero-about-01.webp"
                     width="1280"
                     height="853"
                   />

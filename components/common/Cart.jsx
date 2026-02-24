@@ -77,6 +77,7 @@ export default function Cart() {
                     <div className="hstack gap-2">
                       <figure className="featured-image m-0 rounded ratio ratio-1x1 w-80px uc-transition-toggle overflow-hidden">
                         <img
+                          loading="lazy"
                           className="media-cover image uc-transition-scale-up uc-transition-opaque"
                           src={elm.image}
                           alt="Laptop Cover"

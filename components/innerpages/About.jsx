@@ -65,7 +65,7 @@ export default function About() {
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="About image"
-                    src="/assets/images/template/hero-about-01.jpeg"
+                    src="/assets/images/template/hero-about-01.webp"
                     width="1000"
                     height="1500"
                   />
@@ -79,7 +79,7 @@ export default function About() {
                     <Image
                       className="media-cover image"
                       alt="About image"
-                      src="/assets/images/template/hero-about-02.jpeg"
+                      src="/assets/images/template/hero-about-02.webp"
                       width="1000"
                       height="667"
                     />

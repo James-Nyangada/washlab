@@ -47,7 +47,7 @@ export default function Hero() {
                     <Image
                       className="media-cover image"
                       alt="image"
-                      src="/assets/images/template/hero-05.jpeg"
+                      src="/assets/images/template/hero-05.webp"
                       width="1184"
                       height="1280"
                     />

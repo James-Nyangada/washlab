@@ -44,7 +44,7 @@ export default function Features() {
                   <div className="panel px-3 lg:px-4 xl:px-6 mb-2 lg:mb-5">
                     <Image
                       alt="builder-tools"
-                      src="/assets/images/template/hero-05.jpeg"
+                      src="/assets/images/template/hero-05.webp"
                       width={800}
                       height={800}
                     />
@@ -64,7 +64,7 @@ export default function Features() {
                   <div className="panel px-3 lg:px-4 xl:px-6 mb-2 lg:mb-5">
                     <Image
                       alt="builder-tools"
-                      src="/assets/images/template/hero-about-02.jpeg"
+                      src="/assets/images/template/hero-about-02.webp"
                       width={800}
                       height={800}
                     />
