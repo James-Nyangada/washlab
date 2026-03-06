@@ -77,7 +77,7 @@ export default function Footer1() {
                     <a href="#">Privacy notice</a>
                   </li>
                   <li>
-                    <a href="#">Legal</a>
+                    <a href="#">Terms and Conditions</a>
                   </li>
                   <li>
                     <a href="#">Cookie settings</a>

@@ -92,7 +92,7 @@ export const footerLinks3 = [
     title: "Contact Us",
     links: [
       { href: "/", label: "Contact Us" },
-      { href: "/", label: "Location" },
+      { href: "https://maps.app.goo.gl/LgiLxXm1m5ACQuyC8", label: "Location" },
       { href: "tel:254700772649", label: "Phone Number" },
       { href: "mailto:info@washlab.org", label: "Email" },
     ],

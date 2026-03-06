@@ -27,7 +27,7 @@ export const panels = [
     title: "Address",
     description: "Commodore Office Suites, Kindaruma Rd, Nairobi.",
     linkText: "Our Office",
-    linkUrl: "https://goo.gl/maps/3b1d8f7z5kF2",
+    linkUrl: "https://maps.app.goo.gl/LgiLxXm1m5ACQuyC8",
   },
 
 ];

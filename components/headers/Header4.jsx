@@ -47,7 +47,7 @@ export default function Header4() {
             <div className="container container-expand max-w-1440px">
               <div className="uc-navbar min-h-32px fs-8">
                 <div className="uc-navbar-left">
-                  <ul className="uc-navbar-nav gap-2 fw-medium">
+                  {/* <ul className="uc-navbar-nav gap-2 fw-medium">
                     <li>
                       <a href="/privacy">Privacy</a>
                     </li>
@@ -60,7 +60,7 @@ export default function Header4() {
                         <i className="fs-8 unicon-arrow-up-right fw-bold ms-narrow rtl:-rotate-90" />
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
                 <div className="uc-navbar-right">
                   <div className="uc-navbar-item">
