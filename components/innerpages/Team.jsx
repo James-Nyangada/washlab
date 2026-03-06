@@ -15,7 +15,7 @@ export default function Team() {
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
                 <span className="fw-bold text-primary dark:text-secondary">
-                  Our team
+                  Meet our team
                 </span>
                 <h2 className="title h3 lg:h2 xl:h1 m-0">
                   People you’ll be working with
