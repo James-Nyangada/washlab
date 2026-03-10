@@ -314,7 +314,7 @@ export const blogsPosts41 = [
       "The experience enabled the organisation to engage with potential investors, climate funds, and strategic partners interested in scaling safe-water infrastructure solutions across Kenya’s drought-prone counties. It also reinforced WASHLAB’s mission to combine engineering innovation, climate finance, and community-centred design to expand sustainable access to safe water.",
       "Through initiatives like the Youth Adapt Challenge and the Africa Climate Investment Summit, WASHLAB continues to position itself at the intersection of water infrastructure, climate adaptation, and sustainable finance, contributing to long-term resilience for communities most vulnerable to climate change."
     ],
-    desc: "Transforming climate innovation into practical water solutions, WASHLAB demonstrated how safe water infrastructure can serve as a powerful climate adaptation tool during the Youth Adapt Challenge and the Africa Climate Investment Summit...",
+    desc: "Transforming the climate innovation into practical water solutions, WASHLAB demonstrated how safe water infrastructure can serve as a powerful climate adaptation tool during the Youth Adapt Challenge and the Africa Climate Investment Summit...",
   }
 ];
 
