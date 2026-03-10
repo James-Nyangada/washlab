@@ -27,10 +27,10 @@ export default function Brands() {
           key={index}
         >
           <Image
-            className="brand-item-image h-40px image-filter"
+            className="brand-item-image h-60px image-filter"
             src={brand.src}
             width={165}
-            height={48}
+            height={165}
             alt={brand.alt}
           />
         </SwiperSlide>

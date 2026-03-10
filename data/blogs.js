@@ -293,45 +293,29 @@ export const blogsPosts4 = [
 ];
 export const blogsPosts41 = [
   {
-    id: 26,
-    category: "Strategy",
-    imgSrc: "/assets/images/blog/img-01.jpg",
-    imgAlt: "Top 5 reasons to invest in marketing",
-    imgCaption: "Top 5 reasons to invest in marketing",
-    title: "Beyond the Pipe: How IoT and Data are Forging Africa's Water Future",
-    authorImg: "/assets/images/avatars/02.png",
-    authorAlt: "Victor Ogowe, Chief Technical Officer",
-    desc: "The WASH sector in Africa faces a well-documented, multi-billion-dollar annual funding gap. ",
-    authorName: "Victor Ogowe, Chief Technical Officer",
-    date: "Apr 26, 2024",
-  },
-  {
-    id: 27,
-    category: "Strategy",
-    imgSrc: "/assets/images/blog/img-01.jpg",
-    imgAlt: "Top 5 reasons to invest in marketing",
-    imgCaption: "Top 5 reasons to invest in marketing",
-    title: "The Carbon Credit Revolution: A New Frontier for Financing Sustainable WASH in Kenya",
-    authorImg: "/assets/images/avatars/02.png",
-    authorAlt: "Victor Ogowe, Chief Technical Officer",
-    desc: "The WASH sector in Africa faces a well-documented, multi-billion-dollar annual funding gap. While traditional donor aid and government budgets remain crucial, they are insufficient to achieve SDG 6 for all...  ",
-    authorName: "Marvin Oyuke, Chief Operations Officer",
-    date: "Apr 26, 2024",
-  },
-  {
-    id: 28,
-    category: "Business",
-    imgSrc: "/assets/images/blog/img-02.jpg",
-    imgAlt: "How can marketing help your business?",
-    imgCaption: "How can marketing help your business?",
-    title: "Nothing for Us, Without Us: Why Gender-Responsive Co-creation is Non-Negotiable in Climate Adaptation",
-    authorImg: "/assets/images/avatars/01.png",
-    authorAlt: "Antoinette Maina, Community & Capacity Coordinator",
-    desc: "t is a well-established fact that climate change is not gender-neutral. Around the world, its impacts—drought, floods, resource scarcity—are disproportionately felt by women and girls.",
-    authorName: "Antoinette Maina, Community & Capacity Coordinator",
-    date: "Apr 24, 2024",
-  },
-  
+    id: 101, // arbitrary unique id
+    category: "Story of Impact",
+    title: "Pioneering Climate-Resilient WASH Solutions at the Africa Climate Investment Summit",
+    imgSrc: "/assets/images/template/hero-about-03.webp", // Using one of the existing valid images
+    imgAlt: "WASHLAB at the Africa Climate Investment Summit",
+    imgCaption: "WASHLAB demonstrating climate-resilient water infrastructure",
+    authorImg: "/assets/images/avatars/02.png", // keeping a default avatar format
+    authorName: "WASHLAB Team",
+    date: "October 28, 2025",
+    locationURL: "https://www.google.com/maps/place/Edge+Convention+Center/data=!4m2!3m1!19sChIJayHtQ6QRLxgRk8W2oG6Hee0",
+    keyMetric: "1 climate adaptation innovation presented to regional climate investors and partners\n\nNew strategic partnerships and investment conversations initiated to scale climate-resilient water infrastructure",
+    introduction: "Transforming climate innovation into practical water solutions, WASHLAB demonstrated how safe water infrastructure can serve as a powerful climate adaptation tool during the Youth Adapt Challenge and the Africa Climate Investment Summit, showcasing scalable approaches for strengthening resilience in drought-prone communities.",
+    bodyText: [
+      "Across Kenya’s Arid and Semi-Arid Lands (ASALs), communities face increasingly severe climate shocks. Recurring droughts, unreliable groundwater sources, and ageing water infrastructure continue to threaten water security for rural households, schools, and health facilities. These challenges demand innovative approaches that combine engineering, climate resilience, and sustainable financing.",
+      "To address this gap, WASHLAB participated in the Youth Adapt Challenge, a continental initiative led by the Global Center on Adaptation (GCA) in partnership with the Kenya Climate Innovation Center (KCIC). The programme supports youth-driven climate solutions with the potential to strengthen Africa’s resilience to climate change while unlocking new investment opportunities.",
+      "Through the challenge, WASHLAB presented its Safe Water Climate Adaptation Model, which focuses on retrofitting rural water systems, solarising boreholes, and integrating digital monitoring technologies to improve reliability and sustainability of community water supplies. The model also explores innovative financing through safe-water carbon credits, enabling climate finance to support long-term operation and maintenance of water infrastructure in vulnerable regions.",
+      "Participation in the programme provided WASHLAB with technical mentorship, ecosystem connections, and an opportunity to showcase its work during the Africa Climate Investment Summit. The summit brought together climate investors, development partners, policymakers, and entrepreneurs working to accelerate climate adaptation financing across Africa.",
+      "During the summit, WASHLAB highlighted how climate-resilient water infrastructure can be positioned as an investable climate solution, rather than solely a humanitarian intervention. By demonstrating how solarised water systems reduce emissions, improve water reliability, and strengthen community resilience, WASHLAB helped broaden the conversation around climate investment in the water sector.",
+      "The experience enabled the organisation to engage with potential investors, climate funds, and strategic partners interested in scaling safe-water infrastructure solutions across Kenya’s drought-prone counties. It also reinforced WASHLAB’s mission to combine engineering innovation, climate finance, and community-centred design to expand sustainable access to safe water.",
+      "Through initiatives like the Youth Adapt Challenge and the Africa Climate Investment Summit, WASHLAB continues to position itself at the intersection of water infrastructure, climate adaptation, and sustainable finance, contributing to long-term resilience for communities most vulnerable to climate change."
+    ],
+    desc: "Transforming climate innovation into practical water solutions, WASHLAB demonstrated how safe water infrastructure can serve as a powerful climate adaptation tool during the Youth Adapt Challenge and the Africa Climate Investment Summit...",
+  }
 ];
 
 
@@ -501,6 +485,7 @@ export const allBlogs = [
   ...blogPosts2,
   ...blogPosts3,
   ...blogsPosts4,
+  ...blogsPosts41,
   ...blogPosts5,
   ...slidesData,
   ...slidesData2,

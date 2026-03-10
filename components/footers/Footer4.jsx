@@ -55,7 +55,7 @@ export default function Footer4() {
                           <Image
                             className="text-primary"
                             alt="washlab"
-                            src="/assets/images/common/logo-light.png"
+                            src="/assets/images/common/blue-white-dark.png"
                             width="117"
                             height="40"
                           />

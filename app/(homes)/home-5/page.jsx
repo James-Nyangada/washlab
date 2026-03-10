@@ -46,7 +46,7 @@ export default function HomePage5() {
           {/* <Support /> */}
           
           
-          {/* <Team /> */}
+          <Team />
           {/* <Blog /> */}
           
           <Cta />

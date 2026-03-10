@@ -62,17 +62,17 @@ export default function Blogs1() {
                             src={elm.imgSrc}
                             width={1280}
                             height={853}
-                            alt="Maximizing your reach with marketing strategies"
+                            alt={elm.imgAlt || "Story of Impact"}
                           />
-                          <div
-                            
+                          <Link
+                            href={`/blog-details/${elm.id}`}
                             className="position-cover"
-                            data-caption="Maximizing your reach with marketing strategies"
-                          ></div>
+                            data-caption={elm.imgCaption || "Story of Impact"}
+                          ></Link>
                         </figure>
                       </div>
                       <div>
-                        <div className="vstack items-center gap-2 lg:gap-3">
+                        <div className="vstack flex-grow-1 items-center gap-2 lg:gap-3">
                           <div
                             className="post-category text-primary fw-normal text-none fw-bold fs-7 bg-primary text-white py-narrow px-1 rounded"
                             
@@ -80,23 +80,22 @@ export default function Blogs1() {
                             {elm.category}
                           </div>
                           <h3 className="h4 xl:h2 m-0 text-center m-0 lg:w-500px lg:m-auto">
-                            <div
+                            <Link
                               className="text-none"
-                             
+                              href={`/blog-details/${elm.id}`}
                             >
                               {elm.title}
-                            </div>
+                            </Link>
                           </h3>
                           <ul className="post-meta nav-x ft-tertiary justify-center fs-7 gap-1">
                             <li>
                               <div className="hstack gap-narrow ft-tertiary">
                                 
-                                <div
-                                  href={`/blog-author/Amir Khan`}
+                                <span
                                   className="text-none fw-bold text-dark dark:text-white"
                                 >
                                   {elm.authorName}
-                                </div>
+                                </span>
                               </div>
                             </li>
                             <li className="opacity-50">•</li>
@@ -109,77 +108,15 @@ export default function Blogs1() {
                           <p className="fs-6 lg:fs-5 lg:w-500px lg:mx-auto text-center md:d-none lg:d-block">
                             {elm.desc}
                           </p>
-                          {/* <Link
+                          <Link
                             className="btn btn-text text-primary border-bottom d-inline-flex fs-7 lg:fs-6 sm:mt-2"
                             href={`/blog-details/${elm.id}`}
                           >
-                            Continue reading
-                          </Link> */}
+                            Read Full Story
+                          </Link>
                         </div>
                       </div>
                     </div>
-                  </article>
-                </div>
-              ))}
-              {blogsPosts41.slice(1, 7).map((elm, i) => (
-                <div key={i}>
-                  <article className="post type-post panel vstack gap-3 rounded-3 p-2 pb-3 bg-secondary dark:bg-gray-800">
-                    <Link
-                      className="position-absolute top-0 ltr:start-0 rtl:end-0 m-3 fs-7 fw-bold text-none z-1 bg-primary text-white py-narrow px-1"
-                      href={`/blog`}
-                      style={{ borderRadius: 8 }}
-                    >
-                      {elm.category}
-                    </Link>
-                    <figure className="featured-image m-0 rounded ratio ratio-3x2 rounded-2 uc-transition-toggle overflow-hidden">
-                      <Image
-                        className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                        src={elm.imgSrc}
-                        width={1280}
-                        height={853}
-                        alt="Top 5 reasons to invest in marketing"
-                      />
-                      <Link
-                        href={`/blog-details/${elm.id}`}
-                        className="position-cover"
-                        data-caption="Top 5 reasons to invest in marketing"
-                      ></Link>
-                    </figure>
-                    <header className="panel vstack items-center gap-1 lg:gap-2 px-2">
-                      <h3 className="h5 xl:h4 m-0 text-center m-0">
-                        <Link
-                          className="text-none"
-                          href={`/blog-details/${elm.id}`}
-                        >
-                          {elm.title}
-                        </Link>
-                      </h3>
-                      <ul className="post-meta nav-x ft-tertiary justify-center gap-1 fs-7 text-gray-400 dark:text-gray-300 d-none lg:d-flex">
-                        <li>
-                          <div className="hstack gap-narrow ft-tertiary">
-                            <Image
-                              src={elm.authorImg}
-                              width={150}
-                              height={150}
-                              alt="Sarah"
-                              className="w-24px h-24px rounded-circle me-narrow"
-                            />
-                            <Link
-                              href={`/blog-author/Amir Khan`}
-                              className="text-none fw-bold text-dark dark:text-white"
-                            >
-                              {elm.authorName}
-                            </Link>
-                          </div>
-                        </li>
-                        <li className="opacity-50">•</li>
-                        <li>
-                          <div className="post-date hstack gap-narrow">
-                            <span>{elm.date}</span>
-                          </div>
-                        </li>
-                      </ul>
-                    </header>
                   </article>
                 </div>
               ))}
