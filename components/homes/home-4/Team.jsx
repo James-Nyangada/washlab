@@ -55,13 +55,13 @@ export default function Team() {
                   ))}
                 </div>
               </div>
-              <Link
+              {/* <Link
                 href={`/page-career`}
                 className="uc-link dark:text-secondary fw-bold d-inline-flex items-center gap-narrow mx-auto"
               >
                 <span>We’re hiring</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
