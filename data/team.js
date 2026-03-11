@@ -127,6 +127,7 @@ export const teamMembers2 = [
 export const teamMembers3 = [
   {
     id: 17,
+    slug: "marvin-oyuke",
     name: "Marvin Oyuke",
     title: "Program Director",
     imgSrc: "/assets/images/team/001.jpg",
@@ -139,7 +140,21 @@ export const teamMembers3 = [
       "Resilient Water Supply for ASAL Communities"
     ]
   },
-  
+  {
+    id: 18,
+    slug: "nathan-hammond",
+    name: "Nathan Hammond",
+    title: "Strategic Partner",
+    imgSrc: "/assets/images/team/nathan-hammond.jpg",
+    altText: "Nathan Hammond",
+    website: "http://www.holygoats.org",
+    bio: "Nathan Hammond is an American who grew up in Austria and now lives in Pennsylvania, USA. He is married with 7 kids (3 adopted from Ukraine) and has lived on 4 continents. He was a high school teacher for 20 years and taught part time for 3 universities. He started two Edtech businesses in the 2010s. <a href='http://www.eduspire.org' target='_blank' rel='noopener noreferrer' className='text-primary fw-bold'>Eduspire</a> provides graduate-level courses to nearly 20k teachers (since inception) through a local university partnership, and the other business provided software to schools. He sold the software company in 2022 when they had over 3 million users, which allowed him to “retire” early.<br/><br/>Since then he has made 7 trips to Ukraine to support pastor friends and bring supplies when able. In Ukraine he has also helped stabilize a startup pyrolysis enterprise that converts plastic waste into oil and has a very strong missional vision (<a href='http://www.cleansoulcleancity.org' target='_blank' rel='noopener noreferrer' className='text-primary fw-bold'>Clean Soul Clean City</a>).<br/><br/>In 2024 he started <a href='http://www.holygoats.org' target='_blank' rel='noopener noreferrer' className='text-primary fw-bold'>HolyGoats</a> with 3 goat businesses in remote bush counties of Kenya, co-managing each location with clusters of about 10 bush pastors growing each to a size of 1,500 goats. The vision is to grow these self-sustaining and self-replicating businesses to 100 locations, helping to lift communities economically, supporting 1,000 bush pastors, and helping to start more churches deeper into the bush.<br/><br/>During this time he also became a strategic partner in <a href='http://www.davisonwater.com' target='_blank' rel='noopener noreferrer' className='text-primary fw-bold'>Davison Water Drilling</a> helping them expand. Through his friendship with Marlon an opportunity arose to help get Washlabs off the ground.",
+    keyExpertise: [
+      "Strategic Partnerships & Business Expansion",
+      "Social Enterprise & Missional Development",
+      "EdTech & Scalable Solutions"
+    ]
+  }
 ];
 
 export const teamMembers4 = [
