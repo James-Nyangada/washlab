@@ -25,12 +25,12 @@ export default function Hero() {
                     <br className="d-none lg:d-block" />
                     delivering climate-resilient WASH solutions by integrating advanced technology with deep community partnership.
                   </p>
-                  <div className="hstack gap-2 mt-3">
+                  <div className="vstack sm:hstack justify-center lg:justify-start gap-2 mt-3">
             
-                        <Link href={"/contact"} className="btn btn-md btn-primary rounded-default text-white">
+                        <Link href={"/contact"} className="btn btn-md btn-primary rounded-default w-100 sm:w-auto text-white">
                           Partner with Us
                         </Link>
-                        <Link href={"/projects"} className="btn btn-md btn-primary rounded-default  text-white">
+                        <Link href={"/projects"} className="btn btn-md btn-primary rounded-default w-100 sm:w-auto text-white">
                           Explore Our Work
                         </Link>
                 
