@@ -33,23 +33,23 @@ export const facts = [
 export const factItems = [
   {
     id: 1,
-    value: "50000",
-    description: "Lives Improved",
+    value: "3",
+    description: "Active Projects",
   },
   {
     id: 2,
-    value: "30",
-    description: "Community Served",
+    value: "3",
+    description: "Counties Reached",
   },
   {
     id: 3,
-    value: "15",
-    description: "Parnterships Formed",
+    value: "3",
+    description: "Strategic Partners",
   },
   {
     id: 4,
-    value: "340000",
-    description: "Profits per year",
+    value: "4",
+    description: "Years of Impact",
   },
 ];
 

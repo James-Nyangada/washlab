@@ -32,9 +32,10 @@ export default function Brands2() {
           <Image
             className="brand-item-image h-40px image-filter"
             src={brand.src}
-            width={165}
-            height={48}
-            alt={brand.alt}
+            style={{ width: "auto", height: "60px", objectFit: "contain" }}
+            width={brand.width || 165}
+            height={brand.height || 165}
+            alt={brand.alt || "brand logo"}
           />
         </SwiperSlide>
       ))}
