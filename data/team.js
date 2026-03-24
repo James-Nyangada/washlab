@@ -154,6 +154,21 @@ export const teamMembers3 = [
       "Social Enterprise & Missional Development",
       "EdTech & Scalable Solutions"
     ]
+  },
+  {
+    id: 19,
+    slug: "marlon-oguma-odhiambo",
+    name: "Marlon Oguma Odhiambo",
+    title: "Lead Partner",
+    imgSrc: "/assets/images/team/_DSC2256.jpg",
+    altText: "Marlon Oguma Odhiambo",
+    website: "http://www.davisonwater.com",
+    bio: "Marlon Oguma Odhiambo is the Lead Partner at Washlab Consult and a Director at Davison Water Drilling (<a href='http://www.davisonwater.com' target='_blank' rel='noopener noreferrer' className='text-primary fw-bold'>www.davisonwater.com</a>), bringing over eight years of experience in water infrastructure development and project execution across Kenya. He holds a Business MBA in Global Social and Sustainable Enterprise from Colorado State University, equipping him with a strong foundation in building impactful and scalable ventures.<br/><br/>With a background in borehole drilling, water systems design, and community-focused solutions, Marlon has successfully delivered sustainable water access projects for both local communities and international nonprofit organizations.<br/><br/>He combines technical expertise with strategic leadership, positioning Washlab Consult as a reliable partner in delivering innovative, efficient, and scalable water solutions. His work is driven by a commitment to improving access to clean water while ensuring long-term operational sustainability for the communities served.",
+    keyExpertise: [
+      "Water Infrastructure Development",
+      "Strategic Leadership & Ventures",
+      "Sustainable Water Access Projects"
+    ]
   }
 ];
 
