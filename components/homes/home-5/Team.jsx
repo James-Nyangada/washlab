@@ -44,7 +44,13 @@ export default function Team() {
               </div>
               <div className="content panel">
                 <div
-                  className={`row ${teamMembers3.length === 1 ? 'justify-content-center' : 'child-cols-12 sm:child-cols-6 lg:child-cols-4'} col-match gx-2 gy-4 xl:gx-4 xl:gy-6`}
+                  className={`row ${
+                    teamMembers3.length === 1
+                      ? 'justify-content-center'
+                      : teamMembers3.length === 2
+                      ? 'justify-content-center child-cols-12 sm:child-cols-6 lg:child-cols-6'
+                      : 'child-cols-12 sm:child-cols-6 lg:child-cols-4'
+                  } col-match gx-2 gy-4 xl:gx-4 xl:gy-6`}
                   data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
                 >
                   {teamMembers3.map((member, index) => (

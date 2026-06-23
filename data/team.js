@@ -1,11 +1,11 @@
 export const teamMembers = [
-  {
+  /* {
     id: 1,
     name: "Marvin Oyuke",
     position: "Program Director",
     imageSrc: "/assets/images/template/001.jpg",
     altText: "Marvin Oyuke",
-  },
+  }, */
   {
     id: 2,
     name: "MARVIN OYUKE",
@@ -125,7 +125,7 @@ export const teamMembers2 = [
 ];
 
 export const teamMembers3 = [
-  {
+  /* {
     id: 17,
     slug: "marvin-oyuke",
     name: "Marvin Oyuke",
@@ -139,7 +139,7 @@ export const teamMembers3 = [
       "Safe Water Carbon Finance & Climate Innovation",
       "Resilient Water Supply for ASAL Communities"
     ]
-  },
+  }, */
   {
     id: 18,
     slug: "nathan-hammond",
